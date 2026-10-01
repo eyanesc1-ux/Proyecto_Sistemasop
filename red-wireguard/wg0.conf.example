@@ -1,0 +1,14 @@
+[Interface]
+Address = 10.7.0.1/24
+ListenPort = 51820
+PrivateKey = <CLAVE_PRIVADA_HUB_AZURE>
+
+# Peer Persona 1
+[Peer]
+PublicKey = QNJaifJb84Y8LEBBY7XSERfqBVcFA+PmKLNIQlFhaVg=
+AllowedIPs = 10.7.0.8/32
+
+# Peer Persona 2
+[Peer]
+PublicKey = 0LU4Gvf9fpDB61AteTklulQHkcWf+nfy7CPabe7zJiE=
+AllowedIPs = 10.7.0.4/32
