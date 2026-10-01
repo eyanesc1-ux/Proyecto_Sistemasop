@@ -1,10 +1,10 @@
 # Proyecto Final de Sistemas Operativos y Redes
 
-Repositorio oficial para el proyecto de Sistemas Operativos. Incluye la simulaci髇 de algoritmos de planificaci髇 de procesos, ejercicios de concurrencia e hilos, scripts de gesti髇 de directorios y la arquitectura de red VPN WireGuard (Hub-and-Spoke en Azure).
+Repositorio oficial para el proyecto de Sistemas Operativos. Incluye la simulaci贸n de algoritmos de planificaci贸n de procesos, ejercicios de concurrencia e hilos, scripts de gesti贸n de directorios y la arquitectura de red VPN WireGuard (Hub-and-Spoke en Azure).
 
-## ?? Estructura del Repositorio
+##  Estructura del Repositorio
 
-- /simulador-procesos: C骴igo fuente en C++ para la simulaci髇 del algoritmo FCFS.
-- /concurrencia: Ejemplo pr醕tico de sincronizaci髇 con hilos y exclusi髇 mutua en C++.
-- /red-wireguard: Configuraci髇 de la topolog韆 VPN desplegada en Azure.
-- /directorios: Script Bash de automatizaci髇 de carpetas.
+- /simulador-procesos: C贸digo fuente en C++ para la simulaci贸n del algoritmo FCFS.
+- /concurrencia: Ejemplo pr谩ctico de sincronizaci贸n con hilos y exclusi贸n mutua en C++.
+- /red-wireguard: Configuraci贸n de la topolog铆a VPN desplegada en Azure.
+- /directorios: Script Bash de automatizaci贸n de carpetas.
