@@ -1,0 +1,2002 @@
+# Bitacora del kernel - FCFS quantum=1 cambio_contexto=1 procesos=120
+[t=     0] ESTADO     PID   33  NUEVO     -> LISTO     (admitido)
+[t=     0] ESTADO     PID   96  NUEVO     -> LISTO     (admitido)
+[t=     0] CTX-SWITCH PID   33  carga de contexto
+[t=     1] ESTADO     PID   30  NUEVO     -> LISTO     (admitido)
+[t=     1] ESTADO     PID  118  NUEVO     -> LISTO     (admitido)
+[t=     1] ESTADO     PID   33  LISTO     -> EJECUCION 
+[t=     1] DESPACHO   PID   33  nivel=0 restante=11
+[t=     2] ESTADO     PID    8  NUEVO     -> LISTO     (admitido)
+[t=     2] ESTADO     PID   98  NUEVO     -> LISTO     (admitido)
+[t=     3] ESTADO     PID   16  NUEVO     -> LISTO     (admitido)
+[t=     4] ESTADO     PID   71  NUEVO     -> LISTO     (admitido)
+[t=     4] ESTADO     PID   33  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=     4] CTX-SWITCH PID   96  carga de contexto
+[t=     5] ESTADO     PID   56  NUEVO     -> LISTO     (admitido)
+[t=     5] ESTADO     PID   96  LISTO     -> EJECUCION 
+[t=     5] DESPACHO   PID   96  nivel=0 restante=32
+[t=     7] ESTADO     PID    9  NUEVO     -> LISTO     (admitido)
+[t=     8] ESTADO     PID   97  NUEVO     -> LISTO     (admitido)
+[t=     9] ESTADO     PID   49  NUEVO     -> LISTO     (admitido)
+[t=     9] ESTADO     PID   73  NUEVO     -> LISTO     (admitido)
+[t=     9] ESTADO     PID   33  BLOQUEADO -> LISTO     (fin de E/S)
+[t=    10] ESTADO     PID   79  NUEVO     -> LISTO     (admitido)
+[t=    12] ESTADO     PID   10  NUEVO     -> LISTO     (admitido)
+[t=    12] ESTADO     PID   51  NUEVO     -> LISTO     (admitido)
+[t=    13] ESTADO     PID   92  NUEVO     -> LISTO     (admitido)
+[t=    15] ESTADO     PID   50  NUEVO     -> LISTO     (admitido)
+[t=    15] ESTADO     PID   88  NUEVO     -> LISTO     (admitido)
+[t=    16] ESTADO     PID   69  NUEVO     -> LISTO     (admitido)
+[t=    16] ESTADO     PID  119  NUEVO     -> LISTO     (admitido)
+[t=    17] ESTADO     PID   95  NUEVO     -> LISTO     (admitido)
+[t=    17] ESTADO     PID  106  NUEVO     -> LISTO     (admitido)
+[t=    18] ESTADO     PID   66  NUEVO     -> LISTO     (admitido)
+[t=    18] ESTADO     PID  110  NUEVO     -> LISTO     (admitido)
+[t=    19] ESTADO     PID   45  NUEVO     -> LISTO     (admitido)
+[t=    19] ESTADO     PID   47  NUEVO     -> LISTO     (admitido)
+[t=    20] ESTADO     PID  100  NUEVO     -> LISTO     (admitido)
+[t=    20] ESTADO     PID  101  NUEVO     -> LISTO     (admitido)
+[t=    20] ESTADO     PID  117  NUEVO     -> LISTO     (admitido)
+[t=    21] ESTADO     PID   25  NUEVO     -> LISTO     (admitido)
+[t=    21] ESTADO     PID   43  NUEVO     -> LISTO     (admitido)
+[t=    22] ESTADO     PID   23  NUEVO     -> LISTO     (admitido)
+[t=    22] ESTADO     PID   28  NUEVO     -> LISTO     (admitido)
+[t=    22] ESTADO     PID  114  NUEVO     -> LISTO     (admitido)
+[t=    23] ESTADO     PID   60  NUEVO     -> LISTO     (admitido)
+[t=    24] ESTADO     PID  107  NUEVO     -> LISTO     (admitido)
+[t=    26] ESTADO     PID   38  NUEVO     -> LISTO     (admitido)
+[t=    27] ESTADO     PID  108  NUEVO     -> LISTO     (admitido)
+[t=    28] ESTADO     PID   13  NUEVO     -> LISTO     (admitido)
+[t=    28] ESTADO     PID   39  NUEVO     -> LISTO     (admitido)
+[t=    29] ESTADO     PID   17  NUEVO     -> LISTO     (admitido)
+[t=    30] ESTADO     PID   82  NUEVO     -> LISTO     (admitido)
+[t=    31] ESTADO     PID   29  NUEVO     -> LISTO     (admitido)
+[t=    31] ESTADO     PID  103  NUEVO     -> LISTO     (admitido)
+[t=    33] ESTADO     PID   55  NUEVO     -> LISTO     (admitido)
+[t=    33] ESTADO     PID   91  NUEVO     -> LISTO     (admitido)
+[t=    35] ESTADO     PID  113  NUEVO     -> LISTO     (admitido)
+[t=    36] ESTADO     PID   70  NUEVO     -> LISTO     (admitido)
+[t=    37] ESTADO     PID   52  NUEVO     -> LISTO     (admitido)
+[t=    37] ESTADO     PID   74  NUEVO     -> LISTO     (admitido)
+[t=    37] ESTADO     PID   75  NUEVO     -> LISTO     (admitido)
+[t=    37] ESTADO     PID   96  EJECUCION -> TERMINADO (exit)
+[t=    37] CTX-SWITCH PID   30  carga de contexto
+[t=    38] ESTADO     PID   30  LISTO     -> EJECUCION 
+[t=    38] DESPACHO   PID   30  nivel=0 restante=12
+[t=    40] ESTADO     PID   72  NUEVO     -> LISTO     (admitido)
+[t=    43] ESTADO     PID  116  NUEVO     -> LISTO     (admitido)
+[t=    44] ESTADO     PID   32  NUEVO     -> LISTO     (admitido)
+[t=    44] ESTADO     PID   58  NUEVO     -> LISTO     (admitido)
+[t=    44] ESTADO     PID   78  NUEVO     -> LISTO     (admitido)
+[t=    44] ESTADO     PID   89  NUEVO     -> LISTO     (admitido)
+[t=    45] ESTADO     PID    2  NUEVO     -> LISTO     (admitido)
+[t=    46] ESTADO     PID    3  NUEVO     -> LISTO     (admitido)
+[t=    46] ESTADO     PID    4  NUEVO     -> LISTO     (admitido)
+[t=    46] ESTADO     PID   21  NUEVO     -> LISTO     (admitido)
+[t=    46] ESTADO     PID   87  NUEVO     -> LISTO     (admitido)
+[t=    47] ESTADO     PID   83  NUEVO     -> LISTO     (admitido)
+[t=    48] ESTADO     PID   34  NUEVO     -> LISTO     (admitido)
+[t=    48] ESTADO     PID   30  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=    48] CTX-SWITCH PID  118  carga de contexto
+[t=    49] ESTADO     PID  118  LISTO     -> EJECUCION 
+[t=    49] DESPACHO   PID  118  nivel=0 restante=12
+[t=    50] ESTADO     PID   20  NUEVO     -> LISTO     (admitido)
+[t=    50] ESTADO     PID   63  NUEVO     -> LISTO     (admitido)
+[t=    51] ESTADO     PID    7  NUEVO     -> LISTO     (admitido)
+[t=    51] ESTADO     PID   67  NUEVO     -> LISTO     (admitido)
+[t=    52] ESTADO     PID   22  NUEVO     -> LISTO     (admitido)
+[t=    52] ESTADO     PID   40  NUEVO     -> LISTO     (admitido)
+[t=    54] ESTADO     PID   18  NUEVO     -> LISTO     (admitido)
+[t=    55] ESTADO     PID  115  NUEVO     -> LISTO     (admitido)
+[t=    57] ESTADO     PID    1  NUEVO     -> LISTO     (admitido)
+[t=    58] ESTADO     PID   12  NUEVO     -> LISTO     (admitido)
+[t=    58] ESTADO     PID   76  NUEVO     -> LISTO     (admitido)
+[t=    58] ESTADO     PID   80  NUEVO     -> LISTO     (admitido)
+[t=    59] ESTADO     PID   46  NUEVO     -> LISTO     (admitido)
+[t=    60] ESTADO     PID   41  NUEVO     -> LISTO     (admitido)
+[t=    60] ESTADO     PID   68  NUEVO     -> LISTO     (admitido)
+[t=    61] ESTADO     PID  118  EJECUCION -> TERMINADO (exit)
+[t=    61] CTX-SWITCH PID    8  carga de contexto
+[t=    62] ESTADO     PID    6  NUEVO     -> LISTO     (admitido)
+[t=    62] ESTADO     PID   35  NUEVO     -> LISTO     (admitido)
+[t=    62] ESTADO     PID    8  LISTO     -> EJECUCION 
+[t=    62] DESPACHO   PID    8  nivel=0 restante=8
+[t=    63] ESTADO     PID   19  NUEVO     -> LISTO     (admitido)
+[t=    65] ESTADO     PID   48  NUEVO     -> LISTO     (admitido)
+[t=    66] ESTADO     PID  105  NUEVO     -> LISTO     (admitido)
+[t=    66] ESTADO     PID    8  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=    66] CTX-SWITCH PID   98  carga de contexto
+[t=    67] ESTADO     PID   27  NUEVO     -> LISTO     (admitido)
+[t=    67] ESTADO     PID   90  NUEVO     -> LISTO     (admitido)
+[t=    67] ESTADO     PID   30  BLOQUEADO -> LISTO     (fin de E/S)
+[t=    67] ESTADO     PID   98  LISTO     -> EJECUCION 
+[t=    67] DESPACHO   PID   98  nivel=0 restante=5
+[t=    68] ESTADO     PID   15  NUEVO     -> LISTO     (admitido)
+[t=    68] ESTADO     PID   99  NUEVO     -> LISTO     (admitido)
+[t=    69] ESTADO     PID  111  NUEVO     -> LISTO     (admitido)
+[t=    70] ESTADO     PID   85  NUEVO     -> LISTO     (admitido)
+[t=    70] ESTADO     PID  102  NUEVO     -> LISTO     (admitido)
+[t=    70] ESTADO     PID  109  NUEVO     -> LISTO     (admitido)
+[t=    71] ESTADO     PID   44  NUEVO     -> LISTO     (admitido)
+[t=    72] ESTADO     PID  104  NUEVO     -> LISTO     (admitido)
+[t=    72] ESTADO     PID   98  EJECUCION -> TERMINADO (exit)
+[t=    72] CTX-SWITCH PID   16  carga de contexto
+[t=    73] ESTADO     PID   16  LISTO     -> EJECUCION 
+[t=    73] DESPACHO   PID   16  nivel=0 restante=44
+[t=    74] ESTADO     PID   77  NUEVO     -> LISTO     (admitido)
+[t=    75] ESTADO     PID   64  NUEVO     -> LISTO     (admitido)
+[t=    75] ESTADO     PID    8  BLOQUEADO -> LISTO     (fin de E/S)
+[t=    76] ESTADO     PID   11  NUEVO     -> LISTO     (admitido)
+[t=    77] ESTADO     PID   59  NUEVO     -> LISTO     (admitido)
+[t=    79] ESTADO     PID    5  NUEVO     -> LISTO     (admitido)
+[t=    80] ESTADO     PID   31  NUEVO     -> LISTO     (admitido)
+[t=    80] ESTADO     PID  112  NUEVO     -> LISTO     (admitido)
+[t=    81] ESTADO     PID   54  NUEVO     -> LISTO     (admitido)
+[t=    82] ESTADO     PID   84  NUEVO     -> LISTO     (admitido)
+[t=    83] ESTADO     PID   62  NUEVO     -> LISTO     (admitido)
+[t=    84] ESTADO     PID   61  NUEVO     -> LISTO     (admitido)
+[t=    84] ESTADO     PID   94  NUEVO     -> LISTO     (admitido)
+[t=    89] ESTADO     PID   36  NUEVO     -> LISTO     (admitido)
+[t=    90] ESTADO     PID   57  NUEVO     -> LISTO     (admitido)
+[t=    91] ESTADO     PID   24  NUEVO     -> LISTO     (admitido)
+[t=    91] ESTADO     PID   93  NUEVO     -> LISTO     (admitido)
+[t=    92] ESTADO     PID   14  NUEVO     -> LISTO     (admitido)
+[t=    94] ESTADO     PID   81  NUEVO     -> LISTO     (admitido)
+[t=    95] ESTADO     PID   37  NUEVO     -> LISTO     (admitido)
+[t=    95] ESTADO     PID   65  NUEVO     -> LISTO     (admitido)
+[t=    96] ESTADO     PID  120  NUEVO     -> LISTO     (admitido)
+[t=    97] ESTADO     PID   26  NUEVO     -> LISTO     (admitido)
+[t=    99] ESTADO     PID   53  NUEVO     -> LISTO     (admitido)
+[t=   100] ESTADO     PID   42  NUEVO     -> LISTO     (admitido)
+[t=   100] ESTADO     PID   86  NUEVO     -> LISTO     (admitido)
+[t=   117] ESTADO     PID   16  EJECUCION -> TERMINADO (exit)
+[t=   117] CTX-SWITCH PID   71  carga de contexto
+[t=   118] ESTADO     PID   71  LISTO     -> EJECUCION 
+[t=   118] DESPACHO   PID   71  nivel=0 restante=11
+[t=   129] ESTADO     PID   71  EJECUCION -> TERMINADO (exit)
+[t=   129] CTX-SWITCH PID   56  carga de contexto
+[t=   130] ESTADO     PID   56  LISTO     -> EJECUCION 
+[t=   130] DESPACHO   PID   56  nivel=0 restante=14
+[t=   144] ESTADO     PID   56  EJECUCION -> TERMINADO (exit)
+[t=   144] CTX-SWITCH PID    9  carga de contexto
+[t=   145] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=   145] DESPACHO   PID    9  nivel=0 restante=109
+[t=   153] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   153] CTX-SWITCH PID   97  carga de contexto
+[t=   154] ESTADO     PID   97  LISTO     -> EJECUCION 
+[t=   154] DESPACHO   PID   97  nivel=0 restante=15
+[t=   162] ESTADO     PID   97  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   162] CTX-SWITCH PID   49  carga de contexto
+[t=   163] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   163] ESTADO     PID   49  LISTO     -> EJECUCION 
+[t=   163] DESPACHO   PID   49  nivel=0 restante=13
+[t=   169] ESTADO     PID   97  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   176] ESTADO     PID   49  EJECUCION -> TERMINADO (exit)
+[t=   176] CTX-SWITCH PID   73  carga de contexto
+[t=   177] ESTADO     PID   73  LISTO     -> EJECUCION 
+[t=   177] DESPACHO   PID   73  nivel=0 restante=20
+[t=   197] ESTADO     PID   73  EJECUCION -> TERMINADO (exit)
+[t=   197] CTX-SWITCH PID   33  carga de contexto
+[t=   198] ESTADO     PID   33  LISTO     -> EJECUCION 
+[t=   198] DESPACHO   PID   33  nivel=0 restante=8
+[t=   201] ESTADO     PID   33  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   201] CTX-SWITCH PID   79  carga de contexto
+[t=   202] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=   202] DESPACHO   PID   79  nivel=0 restante=68
+[t=   206] ESTADO     PID   33  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   210] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   210] CTX-SWITCH PID   10  carga de contexto
+[t=   211] ESTADO     PID   10  LISTO     -> EJECUCION 
+[t=   211] DESPACHO   PID   10  nivel=0 restante=18
+[t=   219] ESTADO     PID   10  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   219] CTX-SWITCH PID   51  carga de contexto
+[t=   220] ESTADO     PID   51  LISTO     -> EJECUCION 
+[t=   220] DESPACHO   PID   51  nivel=0 restante=8
+[t=   225] ESTADO     PID   10  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   226] ESTADO     PID   51  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   226] CTX-SWITCH PID   92  carga de contexto
+[t=   227] ESTADO     PID   92  LISTO     -> EJECUCION 
+[t=   227] DESPACHO   PID   92  nivel=0 restante=4
+[t=   229] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   231] ESTADO     PID   92  EJECUCION -> TERMINADO (exit)
+[t=   231] CTX-SWITCH PID   50  carga de contexto
+[t=   232] ESTADO     PID   50  LISTO     -> EJECUCION 
+[t=   232] DESPACHO   PID   50  nivel=0 restante=8
+[t=   235] ESTADO     PID   50  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   235] CTX-SWITCH PID   88  carga de contexto
+[t=   236] ESTADO     PID   88  LISTO     -> EJECUCION 
+[t=   236] DESPACHO   PID   88  nivel=0 restante=5
+[t=   238] ESTADO     PID   51  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   241] ESTADO     PID   88  EJECUCION -> TERMINADO (exit)
+[t=   241] CTX-SWITCH PID   69  carga de contexto
+[t=   242] ESTADO     PID   69  LISTO     -> EJECUCION 
+[t=   242] DESPACHO   PID   69  nivel=0 restante=37
+[t=   246] ESTADO     PID   50  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   250] ESTADO     PID   69  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   250] CTX-SWITCH PID  119  carga de contexto
+[t=   251] ESTADO     PID  119  LISTO     -> EJECUCION 
+[t=   251] DESPACHO   PID  119  nivel=0 restante=60
+[t=   262] ESTADO     PID   69  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   311] ESTADO     PID  119  EJECUCION -> TERMINADO (exit)
+[t=   311] CTX-SWITCH PID   95  carga de contexto
+[t=   312] ESTADO     PID   95  LISTO     -> EJECUCION 
+[t=   312] DESPACHO   PID   95  nivel=0 restante=16
+[t=   316] ESTADO     PID   95  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   316] CTX-SWITCH PID  106  carga de contexto
+[t=   317] ESTADO     PID  106  LISTO     -> EJECUCION 
+[t=   317] DESPACHO   PID  106  nivel=0 restante=16
+[t=   327] ESTADO     PID   95  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   333] ESTADO     PID  106  EJECUCION -> TERMINADO (exit)
+[t=   333] CTX-SWITCH PID   66  carga de contexto
+[t=   334] ESTADO     PID   66  LISTO     -> EJECUCION 
+[t=   334] DESPACHO   PID   66  nivel=0 restante=18
+[t=   352] ESTADO     PID   66  EJECUCION -> TERMINADO (exit)
+[t=   352] CTX-SWITCH PID  110  carga de contexto
+[t=   353] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=   353] DESPACHO   PID  110  nivel=0 restante=105
+[t=   358] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   358] CTX-SWITCH PID   45  carga de contexto
+[t=   359] ESTADO     PID   45  LISTO     -> EJECUCION 
+[t=   359] DESPACHO   PID   45  nivel=0 restante=5
+[t=   364] ESTADO     PID   45  EJECUCION -> TERMINADO (exit)
+[t=   364] CTX-SWITCH PID   47  carga de contexto
+[t=   365] ESTADO     PID   47  LISTO     -> EJECUCION 
+[t=   365] DESPACHO   PID   47  nivel=0 restante=72
+[t=   375] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   437] ESTADO     PID   47  EJECUCION -> TERMINADO (exit)
+[t=   437] CTX-SWITCH PID  100  carga de contexto
+[t=   438] ESTADO     PID  100  LISTO     -> EJECUCION 
+[t=   438] DESPACHO   PID  100  nivel=0 restante=11
+[t=   449] ESTADO     PID  100  EJECUCION -> TERMINADO (exit)
+[t=   449] CTX-SWITCH PID  101  carga de contexto
+[t=   450] ESTADO     PID  101  LISTO     -> EJECUCION 
+[t=   450] DESPACHO   PID  101  nivel=0 restante=17
+[t=   467] ESTADO     PID  101  EJECUCION -> TERMINADO (exit)
+[t=   467] CTX-SWITCH PID  117  carga de contexto
+[t=   468] ESTADO     PID  117  LISTO     -> EJECUCION 
+[t=   468] DESPACHO   PID  117  nivel=0 restante=5
+[t=   472] ESTADO     PID  117  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   472] CTX-SWITCH PID   25  carga de contexto
+[t=   473] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=   473] DESPACHO   PID   25  nivel=0 restante=92
+[t=   477] ESTADO     PID  117  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   477] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   477] CTX-SWITCH PID   43  carga de contexto
+[t=   478] ESTADO     PID   43  LISTO     -> EJECUCION 
+[t=   478] DESPACHO   PID   43  nivel=0 restante=42
+[t=   492] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   520] ESTADO     PID   43  EJECUCION -> TERMINADO (exit)
+[t=   520] CTX-SWITCH PID   23  carga de contexto
+[t=   521] ESTADO     PID   23  LISTO     -> EJECUCION 
+[t=   521] DESPACHO   PID   23  nivel=0 restante=115
+[t=   636] ESTADO     PID   23  EJECUCION -> TERMINADO (exit)
+[t=   636] CTX-SWITCH PID   28  carga de contexto
+[t=   637] ESTADO     PID   28  LISTO     -> EJECUCION 
+[t=   637] DESPACHO   PID   28  nivel=0 restante=3
+[t=   640] ESTADO     PID   28  EJECUCION -> TERMINADO (exit)
+[t=   640] CTX-SWITCH PID  114  carga de contexto
+[t=   641] ESTADO     PID  114  LISTO     -> EJECUCION 
+[t=   641] DESPACHO   PID  114  nivel=0 restante=19
+[t=   660] ESTADO     PID  114  EJECUCION -> TERMINADO (exit)
+[t=   660] CTX-SWITCH PID   60  carga de contexto
+[t=   661] ESTADO     PID   60  LISTO     -> EJECUCION 
+[t=   661] DESPACHO   PID   60  nivel=0 restante=62
+[t=   723] ESTADO     PID   60  EJECUCION -> TERMINADO (exit)
+[t=   723] CTX-SWITCH PID  107  carga de contexto
+[t=   724] ESTADO     PID  107  LISTO     -> EJECUCION 
+[t=   724] DESPACHO   PID  107  nivel=0 restante=7
+[t=   731] ESTADO     PID  107  EJECUCION -> TERMINADO (exit)
+[t=   731] CTX-SWITCH PID   38  carga de contexto
+[t=   732] ESTADO     PID   38  LISTO     -> EJECUCION 
+[t=   732] DESPACHO   PID   38  nivel=0 restante=19
+[t=   751] ESTADO     PID   38  EJECUCION -> TERMINADO (exit)
+[t=   751] CTX-SWITCH PID  108  carga de contexto
+[t=   752] ESTADO     PID  108  LISTO     -> EJECUCION 
+[t=   752] DESPACHO   PID  108  nivel=0 restante=73
+[t=   825] ESTADO     PID  108  EJECUCION -> TERMINADO (exit)
+[t=   825] CTX-SWITCH PID   13  carga de contexto
+[t=   826] ESTADO     PID   13  LISTO     -> EJECUCION 
+[t=   826] DESPACHO   PID   13  nivel=0 restante=44
+[t=   870] ESTADO     PID   13  EJECUCION -> TERMINADO (exit)
+[t=   870] CTX-SWITCH PID   39  carga de contexto
+[t=   871] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=   871] DESPACHO   PID   39  nivel=0 restante=59
+[t=   880] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   880] CTX-SWITCH PID   17  carga de contexto
+[t=   881] ESTADO     PID   17  LISTO     -> EJECUCION 
+[t=   881] DESPACHO   PID   17  nivel=0 restante=2
+[t=   883] ESTADO     PID   17  EJECUCION -> TERMINADO (exit)
+[t=   883] CTX-SWITCH PID   82  carga de contexto
+[t=   884] ESTADO     PID   82  LISTO     -> EJECUCION 
+[t=   884] DESPACHO   PID   82  nivel=0 restante=2
+[t=   886] ESTADO     PID   82  EJECUCION -> TERMINADO (exit)
+[t=   886] CTX-SWITCH PID   29  carga de contexto
+[t=   887] ESTADO     PID   29  LISTO     -> EJECUCION 
+[t=   887] DESPACHO   PID   29  nivel=0 restante=12
+[t=   888] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   896] ESTADO     PID   29  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   896] CTX-SWITCH PID  103  carga de contexto
+[t=   897] ESTADO     PID  103  LISTO     -> EJECUCION 
+[t=   897] DESPACHO   PID  103  nivel=0 restante=10
+[t=   906] ESTADO     PID   29  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   907] ESTADO     PID  103  EJECUCION -> TERMINADO (exit)
+[t=   907] CTX-SWITCH PID   55  carga de contexto
+[t=   908] ESTADO     PID   55  LISTO     -> EJECUCION 
+[t=   908] DESPACHO   PID   55  nivel=0 restante=2
+[t=   910] ESTADO     PID   55  EJECUCION -> TERMINADO (exit)
+[t=   910] CTX-SWITCH PID   91  carga de contexto
+[t=   911] ESTADO     PID   91  LISTO     -> EJECUCION 
+[t=   911] DESPACHO   PID   91  nivel=0 restante=12
+[t=   919] ESTADO     PID   91  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   919] CTX-SWITCH PID  113  carga de contexto
+[t=   920] ESTADO     PID  113  LISTO     -> EJECUCION 
+[t=   920] DESPACHO   PID  113  nivel=0 restante=16
+[t=   932] ESTADO     PID   91  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   936] ESTADO     PID  113  EJECUCION -> TERMINADO (exit)
+[t=   936] CTX-SWITCH PID   70  carga de contexto
+[t=   937] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=   937] DESPACHO   PID   70  nivel=0 restante=68
+[t=   941] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   941] CTX-SWITCH PID   52  carga de contexto
+[t=   942] ESTADO     PID   52  LISTO     -> EJECUCION 
+[t=   942] DESPACHO   PID   52  nivel=0 restante=13
+[t=   954] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   955] ESTADO     PID   52  EJECUCION -> TERMINADO (exit)
+[t=   955] CTX-SWITCH PID   74  carga de contexto
+[t=   956] ESTADO     PID   74  LISTO     -> EJECUCION 
+[t=   956] DESPACHO   PID   74  nivel=0 restante=16
+[t=   963] ESTADO     PID   74  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   963] CTX-SWITCH PID   75  carga de contexto
+[t=   964] ESTADO     PID   75  LISTO     -> EJECUCION 
+[t=   964] DESPACHO   PID   75  nivel=0 restante=19
+[t=   982] ESTADO     PID   74  BLOQUEADO -> LISTO     (fin de E/S)
+[t=   983] ESTADO     PID   75  EJECUCION -> TERMINADO (exit)
+[t=   983] CTX-SWITCH PID   72  carga de contexto
+[t=   984] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=   984] DESPACHO   PID   72  nivel=0 restante=60
+[t=   990] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=   990] CTX-SWITCH PID  116  carga de contexto
+[t=   991] ESTADO     PID  116  LISTO     -> EJECUCION 
+[t=   991] DESPACHO   PID  116  nivel=0 restante=17
+[t=  1003] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1008] ESTADO     PID  116  EJECUCION -> TERMINADO (exit)
+[t=  1008] CTX-SWITCH PID   32  carga de contexto
+[t=  1009] ESTADO     PID   32  LISTO     -> EJECUCION 
+[t=  1009] DESPACHO   PID   32  nivel=0 restante=3
+[t=  1012] ESTADO     PID   32  EJECUCION -> TERMINADO (exit)
+[t=  1012] CTX-SWITCH PID   58  carga de contexto
+[t=  1013] ESTADO     PID   58  LISTO     -> EJECUCION 
+[t=  1013] DESPACHO   PID   58  nivel=0 restante=4
+[t=  1017] ESTADO     PID   58  EJECUCION -> TERMINADO (exit)
+[t=  1017] CTX-SWITCH PID   78  carga de contexto
+[t=  1018] ESTADO     PID   78  LISTO     -> EJECUCION 
+[t=  1018] DESPACHO   PID   78  nivel=0 restante=16
+[t=  1034] ESTADO     PID   78  EJECUCION -> TERMINADO (exit)
+[t=  1034] CTX-SWITCH PID   89  carga de contexto
+[t=  1035] ESTADO     PID   89  LISTO     -> EJECUCION 
+[t=  1035] DESPACHO   PID   89  nivel=0 restante=18
+[t=  1053] ESTADO     PID   89  EJECUCION -> TERMINADO (exit)
+[t=  1053] CTX-SWITCH PID    2  carga de contexto
+[t=  1054] ESTADO     PID    2  LISTO     -> EJECUCION 
+[t=  1054] DESPACHO   PID    2  nivel=0 restante=96
+[t=  1150] ESTADO     PID    2  EJECUCION -> TERMINADO (exit)
+[t=  1150] CTX-SWITCH PID    3  carga de contexto
+[t=  1151] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  1151] DESPACHO   PID    3  nivel=0 restante=107
+[t=  1158] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1158] CTX-SWITCH PID    4  carga de contexto
+[t=  1159] ESTADO     PID    4  LISTO     -> EJECUCION 
+[t=  1159] DESPACHO   PID    4  nivel=0 restante=64
+[t=  1178] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1223] ESTADO     PID    4  EJECUCION -> TERMINADO (exit)
+[t=  1223] CTX-SWITCH PID   21  carga de contexto
+[t=  1224] ESTADO     PID   21  LISTO     -> EJECUCION 
+[t=  1224] DESPACHO   PID   21  nivel=0 restante=81
+[t=  1305] ESTADO     PID   21  EJECUCION -> TERMINADO (exit)
+[t=  1305] CTX-SWITCH PID   87  carga de contexto
+[t=  1306] ESTADO     PID   87  LISTO     -> EJECUCION 
+[t=  1306] DESPACHO   PID   87  nivel=0 restante=13
+[t=  1312] ESTADO     PID   87  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1312] CTX-SWITCH PID   83  carga de contexto
+[t=  1313] ESTADO     PID   83  LISTO     -> EJECUCION 
+[t=  1313] DESPACHO   PID   83  nivel=0 restante=8
+[t=  1317] ESTADO     PID   87  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1321] ESTADO     PID   83  EJECUCION -> TERMINADO (exit)
+[t=  1321] CTX-SWITCH PID   34  carga de contexto
+[t=  1322] ESTADO     PID   34  LISTO     -> EJECUCION 
+[t=  1322] DESPACHO   PID   34  nivel=0 restante=3
+[t=  1325] ESTADO     PID   34  EJECUCION -> TERMINADO (exit)
+[t=  1325] CTX-SWITCH PID   20  carga de contexto
+[t=  1326] ESTADO     PID   20  LISTO     -> EJECUCION 
+[t=  1326] DESPACHO   PID   20  nivel=0 restante=3
+[t=  1329] ESTADO     PID   20  EJECUCION -> TERMINADO (exit)
+[t=  1329] CTX-SWITCH PID   63  carga de contexto
+[t=  1330] ESTADO     PID   63  LISTO     -> EJECUCION 
+[t=  1330] DESPACHO   PID   63  nivel=0 restante=14
+[t=  1344] ESTADO     PID   63  EJECUCION -> TERMINADO (exit)
+[t=  1344] CTX-SWITCH PID    7  carga de contexto
+[t=  1345] ESTADO     PID    7  LISTO     -> EJECUCION 
+[t=  1345] DESPACHO   PID    7  nivel=0 restante=12
+[t=  1357] ESTADO     PID    7  EJECUCION -> TERMINADO (exit)
+[t=  1357] CTX-SWITCH PID   67  carga de contexto
+[t=  1358] ESTADO     PID   67  LISTO     -> EJECUCION 
+[t=  1358] DESPACHO   PID   67  nivel=0 restante=88
+[t=  1446] ESTADO     PID   67  EJECUCION -> TERMINADO (exit)
+[t=  1446] CTX-SWITCH PID   22  carga de contexto
+[t=  1447] ESTADO     PID   22  LISTO     -> EJECUCION 
+[t=  1447] DESPACHO   PID   22  nivel=0 restante=9
+[t=  1453] ESTADO     PID   22  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1453] CTX-SWITCH PID   40  carga de contexto
+[t=  1454] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  1454] DESPACHO   PID   40  nivel=0 restante=99
+[t=  1457] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1457] CTX-SWITCH PID   18  carga de contexto
+[t=  1458] ESTADO     PID   18  LISTO     -> EJECUCION 
+[t=  1458] DESPACHO   PID   18  nivel=0 restante=32
+[t=  1464] ESTADO     PID   22  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1464] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1490] ESTADO     PID   18  EJECUCION -> TERMINADO (exit)
+[t=  1490] CTX-SWITCH PID  115  carga de contexto
+[t=  1491] ESTADO     PID  115  LISTO     -> EJECUCION 
+[t=  1491] DESPACHO   PID  115  nivel=0 restante=12
+[t=  1503] ESTADO     PID  115  EJECUCION -> TERMINADO (exit)
+[t=  1503] CTX-SWITCH PID    1  carga de contexto
+[t=  1504] ESTADO     PID    1  LISTO     -> EJECUCION 
+[t=  1504] DESPACHO   PID    1  nivel=0 restante=10
+[t=  1514] ESTADO     PID    1  EJECUCION -> TERMINADO (exit)
+[t=  1514] CTX-SWITCH PID   12  carga de contexto
+[t=  1515] ESTADO     PID   12  LISTO     -> EJECUCION 
+[t=  1515] DESPACHO   PID   12  nivel=0 restante=18
+[t=  1525] ESTADO     PID   12  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1525] CTX-SWITCH PID   76  carga de contexto
+[t=  1526] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  1526] DESPACHO   PID   76  nivel=0 restante=72
+[t=  1529] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1529] CTX-SWITCH PID   80  carga de contexto
+[t=  1530] ESTADO     PID   80  LISTO     -> EJECUCION 
+[t=  1530] DESPACHO   PID   80  nivel=0 restante=42
+[t=  1536] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1538] ESTADO     PID   12  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  1572] ESTADO     PID   80  EJECUCION -> TERMINADO (exit)
+[t=  1572] CTX-SWITCH PID   46  carga de contexto
+[t=  1573] ESTADO     PID   46  LISTO     -> EJECUCION 
+[t=  1573] DESPACHO   PID   46  nivel=0 restante=79
+[t=  1652] ESTADO     PID   46  EJECUCION -> TERMINADO (exit)
+[t=  1652] CTX-SWITCH PID   41  carga de contexto
+[t=  1653] ESTADO     PID   41  LISTO     -> EJECUCION 
+[t=  1653] DESPACHO   PID   41  nivel=0 restante=31
+[t=  1684] ESTADO     PID   41  EJECUCION -> TERMINADO (exit)
+[t=  1684] CTX-SWITCH PID   68  carga de contexto
+[t=  1685] ESTADO     PID   68  LISTO     -> EJECUCION 
+[t=  1685] DESPACHO   PID   68  nivel=0 restante=110
+[t=  1795] ESTADO     PID   68  EJECUCION -> TERMINADO (exit)
+[t=  1795] CTX-SWITCH PID    6  carga de contexto
+[t=  1796] ESTADO     PID    6  LISTO     -> EJECUCION 
+[t=  1796] DESPACHO   PID    6  nivel=0 restante=18
+[t=  1814] ESTADO     PID    6  EJECUCION -> TERMINADO (exit)
+[t=  1814] CTX-SWITCH PID   35  carga de contexto
+[t=  1815] ESTADO     PID   35  LISTO     -> EJECUCION 
+[t=  1815] DESPACHO   PID   35  nivel=0 restante=110
+[t=  1925] ESTADO     PID   35  EJECUCION -> TERMINADO (exit)
+[t=  1925] CTX-SWITCH PID   19  carga de contexto
+[t=  1926] ESTADO     PID   19  LISTO     -> EJECUCION 
+[t=  1926] DESPACHO   PID   19  nivel=0 restante=13
+[t=  1939] ESTADO     PID   19  EJECUCION -> TERMINADO (exit)
+[t=  1939] CTX-SWITCH PID   48  carga de contexto
+[t=  1940] ESTADO     PID   48  LISTO     -> EJECUCION 
+[t=  1940] DESPACHO   PID   48  nivel=0 restante=15
+[t=  1943] ESTADO     PID   48  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  1943] CTX-SWITCH PID  105  carga de contexto
+[t=  1944] ESTADO     PID  105  LISTO     -> EJECUCION 
+[t=  1944] DESPACHO   PID  105  nivel=0 restante=102
+[t=  1951] ESTADO     PID   48  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2046] ESTADO     PID  105  EJECUCION -> TERMINADO (exit)
+[t=  2046] CTX-SWITCH PID   27  carga de contexto
+[t=  2047] ESTADO     PID   27  LISTO     -> EJECUCION 
+[t=  2047] DESPACHO   PID   27  nivel=0 restante=11
+[t=  2051] ESTADO     PID   27  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2051] CTX-SWITCH PID   90  carga de contexto
+[t=  2052] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  2052] DESPACHO   PID   90  nivel=0 restante=94
+[t=  2056] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2056] CTX-SWITCH PID   30  carga de contexto
+[t=  2057] ESTADO     PID   30  LISTO     -> EJECUCION 
+[t=  2057] DESPACHO   PID   30  nivel=0 restante=2
+[t=  2059] ESTADO     PID   30  EJECUCION -> TERMINADO (exit)
+[t=  2059] CTX-SWITCH PID   15  carga de contexto
+[t=  2060] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  2060] DESPACHO   PID   15  nivel=0 restante=57
+[t=  2065] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2065] CTX-SWITCH PID   99  carga de contexto
+[t=  2066] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  2066] DESPACHO   PID   99  nivel=0 restante=112
+[t=  2068] ESTADO     PID   27  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2070] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2070] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2073] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2073] CTX-SWITCH PID  111  carga de contexto
+[t=  2074] ESTADO     PID  111  LISTO     -> EJECUCION 
+[t=  2074] DESPACHO   PID  111  nivel=0 restante=114
+[t=  2091] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2188] ESTADO     PID  111  EJECUCION -> TERMINADO (exit)
+[t=  2188] CTX-SWITCH PID   85  carga de contexto
+[t=  2189] ESTADO     PID   85  LISTO     -> EJECUCION 
+[t=  2189] DESPACHO   PID   85  nivel=0 restante=3
+[t=  2192] ESTADO     PID   85  EJECUCION -> TERMINADO (exit)
+[t=  2192] CTX-SWITCH PID  102  carga de contexto
+[t=  2193] ESTADO     PID  102  LISTO     -> EJECUCION 
+[t=  2193] DESPACHO   PID  102  nivel=0 restante=13
+[t=  2206] ESTADO     PID  102  EJECUCION -> TERMINADO (exit)
+[t=  2206] CTX-SWITCH PID  109  carga de contexto
+[t=  2207] ESTADO     PID  109  LISTO     -> EJECUCION 
+[t=  2207] DESPACHO   PID  109  nivel=0 restante=87
+[t=  2294] ESTADO     PID  109  EJECUCION -> TERMINADO (exit)
+[t=  2294] CTX-SWITCH PID   44  carga de contexto
+[t=  2295] ESTADO     PID   44  LISTO     -> EJECUCION 
+[t=  2295] DESPACHO   PID   44  nivel=0 restante=90
+[t=  2385] ESTADO     PID   44  EJECUCION -> TERMINADO (exit)
+[t=  2385] CTX-SWITCH PID  104  carga de contexto
+[t=  2386] ESTADO     PID  104  LISTO     -> EJECUCION 
+[t=  2386] DESPACHO   PID  104  nivel=0 restante=12
+[t=  2398] ESTADO     PID  104  EJECUCION -> TERMINADO (exit)
+[t=  2398] CTX-SWITCH PID   77  carga de contexto
+[t=  2399] ESTADO     PID   77  LISTO     -> EJECUCION 
+[t=  2399] DESPACHO   PID   77  nivel=0 restante=66
+[t=  2465] ESTADO     PID   77  EJECUCION -> TERMINADO (exit)
+[t=  2465] CTX-SWITCH PID   64  carga de contexto
+[t=  2466] ESTADO     PID   64  LISTO     -> EJECUCION 
+[t=  2466] DESPACHO   PID   64  nivel=0 restante=9
+[t=  2475] ESTADO     PID   64  EJECUCION -> TERMINADO (exit)
+[t=  2475] CTX-SWITCH PID    8  carga de contexto
+[t=  2476] ESTADO     PID    8  LISTO     -> EJECUCION 
+[t=  2476] DESPACHO   PID    8  nivel=0 restante=4
+[t=  2480] ESTADO     PID    8  EJECUCION -> TERMINADO (exit)
+[t=  2480] CTX-SWITCH PID   11  carga de contexto
+[t=  2481] ESTADO     PID   11  LISTO     -> EJECUCION 
+[t=  2481] DESPACHO   PID   11  nivel=0 restante=17
+[t=  2498] ESTADO     PID   11  EJECUCION -> TERMINADO (exit)
+[t=  2498] CTX-SWITCH PID   59  carga de contexto
+[t=  2499] ESTADO     PID   59  LISTO     -> EJECUCION 
+[t=  2499] DESPACHO   PID   59  nivel=0 restante=10
+[t=  2502] ESTADO     PID   59  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2502] CTX-SWITCH PID    5  carga de contexto
+[t=  2503] ESTADO     PID    5  LISTO     -> EJECUCION 
+[t=  2503] DESPACHO   PID    5  nivel=0 restante=2
+[t=  2505] ESTADO     PID    5  EJECUCION -> TERMINADO (exit)
+[t=  2505] CTX-SWITCH PID   31  carga de contexto
+[t=  2506] ESTADO     PID   31  LISTO     -> EJECUCION 
+[t=  2506] DESPACHO   PID   31  nivel=0 restante=17
+[t=  2515] ESTADO     PID   59  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2523] ESTADO     PID   31  EJECUCION -> TERMINADO (exit)
+[t=  2523] CTX-SWITCH PID  112  carga de contexto
+[t=  2524] ESTADO     PID  112  LISTO     -> EJECUCION 
+[t=  2524] DESPACHO   PID  112  nivel=0 restante=20
+[t=  2544] ESTADO     PID  112  EJECUCION -> TERMINADO (exit)
+[t=  2544] CTX-SWITCH PID   54  carga de contexto
+[t=  2545] ESTADO     PID   54  LISTO     -> EJECUCION 
+[t=  2545] DESPACHO   PID   54  nivel=0 restante=16
+[t=  2561] ESTADO     PID   54  EJECUCION -> TERMINADO (exit)
+[t=  2561] CTX-SWITCH PID   84  carga de contexto
+[t=  2562] ESTADO     PID   84  LISTO     -> EJECUCION 
+[t=  2562] DESPACHO   PID   84  nivel=0 restante=52
+[t=  2614] ESTADO     PID   84  EJECUCION -> TERMINADO (exit)
+[t=  2614] CTX-SWITCH PID   62  carga de contexto
+[t=  2615] ESTADO     PID   62  LISTO     -> EJECUCION 
+[t=  2615] DESPACHO   PID   62  nivel=0 restante=18
+[t=  2633] ESTADO     PID   62  EJECUCION -> TERMINADO (exit)
+[t=  2633] CTX-SWITCH PID   61  carga de contexto
+[t=  2634] ESTADO     PID   61  LISTO     -> EJECUCION 
+[t=  2634] DESPACHO   PID   61  nivel=0 restante=20
+[t=  2654] ESTADO     PID   61  EJECUCION -> TERMINADO (exit)
+[t=  2654] CTX-SWITCH PID   94  carga de contexto
+[t=  2655] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  2655] DESPACHO   PID   94  nivel=0 restante=90
+[t=  2661] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2661] CTX-SWITCH PID   36  carga de contexto
+[t=  2662] ESTADO     PID   36  LISTO     -> EJECUCION 
+[t=  2662] DESPACHO   PID   36  nivel=0 restante=2
+[t=  2664] ESTADO     PID   36  EJECUCION -> TERMINADO (exit)
+[t=  2664] CTX-SWITCH PID   57  carga de contexto
+[t=  2665] ESTADO     PID   57  LISTO     -> EJECUCION 
+[t=  2665] DESPACHO   PID   57  nivel=0 restante=7
+[t=  2672] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2672] ESTADO     PID   57  EJECUCION -> TERMINADO (exit)
+[t=  2672] CTX-SWITCH PID   24  carga de contexto
+[t=  2673] ESTADO     PID   24  LISTO     -> EJECUCION 
+[t=  2673] DESPACHO   PID   24  nivel=0 restante=12
+[t=  2679] ESTADO     PID   24  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2679] CTX-SWITCH PID   93  carga de contexto
+[t=  2680] ESTADO     PID   93  LISTO     -> EJECUCION 
+[t=  2680] DESPACHO   PID   93  nivel=0 restante=3
+[t=  2683] ESTADO     PID   93  EJECUCION -> TERMINADO (exit)
+[t=  2683] CTX-SWITCH PID   14  carga de contexto
+[t=  2684] ESTADO     PID   14  LISTO     -> EJECUCION 
+[t=  2684] DESPACHO   PID   14  nivel=0 restante=18
+[t=  2688] ESTADO     PID   24  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2702] ESTADO     PID   14  EJECUCION -> TERMINADO (exit)
+[t=  2702] CTX-SWITCH PID   81  carga de contexto
+[t=  2703] ESTADO     PID   81  LISTO     -> EJECUCION 
+[t=  2703] DESPACHO   PID   81  nivel=0 restante=5
+[t=  2708] ESTADO     PID   81  EJECUCION -> TERMINADO (exit)
+[t=  2708] CTX-SWITCH PID   37  carga de contexto
+[t=  2709] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  2709] DESPACHO   PID   37  nivel=0 restante=36
+[t=  2716] ESTADO     PID   37  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2716] CTX-SWITCH PID   65  carga de contexto
+[t=  2717] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  2717] DESPACHO   PID   65  nivel=0 restante=104
+[t=  2723] ESTADO     PID   37  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2725] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2725] CTX-SWITCH PID  120  carga de contexto
+[t=  2726] ESTADO     PID  120  LISTO     -> EJECUCION 
+[t=  2726] DESPACHO   PID  120  nivel=0 restante=9
+[t=  2735] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2735] ESTADO     PID  120  EJECUCION -> TERMINADO (exit)
+[t=  2735] CTX-SWITCH PID   26  carga de contexto
+[t=  2736] ESTADO     PID   26  LISTO     -> EJECUCION 
+[t=  2736] DESPACHO   PID   26  nivel=0 restante=18
+[t=  2754] ESTADO     PID   26  EJECUCION -> TERMINADO (exit)
+[t=  2754] CTX-SWITCH PID   53  carga de contexto
+[t=  2755] ESTADO     PID   53  LISTO     -> EJECUCION 
+[t=  2755] DESPACHO   PID   53  nivel=0 restante=16
+[t=  2771] ESTADO     PID   53  EJECUCION -> TERMINADO (exit)
+[t=  2771] CTX-SWITCH PID   42  carga de contexto
+[t=  2772] ESTADO     PID   42  LISTO     -> EJECUCION 
+[t=  2772] DESPACHO   PID   42  nivel=0 restante=3
+[t=  2775] ESTADO     PID   42  EJECUCION -> TERMINADO (exit)
+[t=  2775] CTX-SWITCH PID   86  carga de contexto
+[t=  2776] ESTADO     PID   86  LISTO     -> EJECUCION 
+[t=  2776] DESPACHO   PID   86  nivel=0 restante=42
+[t=  2818] ESTADO     PID   86  EJECUCION -> TERMINADO (exit)
+[t=  2818] CTX-SWITCH PID    9  carga de contexto
+[t=  2819] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  2819] DESPACHO   PID    9  nivel=0 restante=101
+[t=  2827] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2827] CTX-SWITCH PID   97  carga de contexto
+[t=  2828] ESTADO     PID   97  LISTO     -> EJECUCION 
+[t=  2828] DESPACHO   PID   97  nivel=0 restante=7
+[t=  2835] ESTADO     PID   97  EJECUCION -> TERMINADO (exit)
+[t=  2835] CTX-SWITCH PID   33  carga de contexto
+[t=  2836] ESTADO     PID   33  LISTO     -> EJECUCION 
+[t=  2836] DESPACHO   PID   33  nivel=0 restante=5
+[t=  2837] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2839] ESTADO     PID   33  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2839] CTX-SWITCH PID   10  carga de contexto
+[t=  2840] ESTADO     PID   10  LISTO     -> EJECUCION 
+[t=  2840] DESPACHO   PID   10  nivel=0 restante=10
+[t=  2844] ESTADO     PID   33  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2848] ESTADO     PID   10  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2848] CTX-SWITCH PID   79  carga de contexto
+[t=  2849] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  2849] DESPACHO   PID   79  nivel=0 restante=60
+[t=  2854] ESTADO     PID   10  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2857] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2857] CTX-SWITCH PID   51  carga de contexto
+[t=  2858] ESTADO     PID   51  LISTO     -> EJECUCION 
+[t=  2858] DESPACHO   PID   51  nivel=0 restante=2
+[t=  2860] ESTADO     PID   51  EJECUCION -> TERMINADO (exit)
+[t=  2860] CTX-SWITCH PID   50  carga de contexto
+[t=  2861] ESTADO     PID   50  LISTO     -> EJECUCION 
+[t=  2861] DESPACHO   PID   50  nivel=0 restante=5
+[t=  2864] ESTADO     PID   50  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2864] CTX-SWITCH PID   69  carga de contexto
+[t=  2865] ESTADO     PID   69  LISTO     -> EJECUCION 
+[t=  2865] DESPACHO   PID   69  nivel=0 restante=29
+[t=  2873] ESTADO     PID   69  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2873] CTX-SWITCH PID   95  carga de contexto
+[t=  2874] ESTADO     PID   95  LISTO     -> EJECUCION 
+[t=  2874] DESPACHO   PID   95  nivel=0 restante=12
+[t=  2875] ESTADO     PID   50  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2876] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2878] ESTADO     PID   95  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2878] CTX-SWITCH PID  110  carga de contexto
+[t=  2879] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  2879] DESPACHO   PID  110  nivel=0 restante=100
+[t=  2884] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2884] CTX-SWITCH PID  117  carga de contexto
+[t=  2885] ESTADO     PID   69  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2885] ESTADO     PID  117  LISTO     -> EJECUCION 
+[t=  2885] DESPACHO   PID  117  nivel=0 restante=1
+[t=  2886] ESTADO     PID  117  EJECUCION -> TERMINADO (exit)
+[t=  2886] CTX-SWITCH PID   25  carga de contexto
+[t=  2887] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  2887] DESPACHO   PID   25  nivel=0 restante=88
+[t=  2889] ESTADO     PID   95  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2891] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2891] CTX-SWITCH PID   39  carga de contexto
+[t=  2892] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  2892] DESPACHO   PID   39  nivel=0 restante=50
+[t=  2901] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2901] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2901] CTX-SWITCH PID   29  carga de contexto
+[t=  2902] ESTADO     PID   29  LISTO     -> EJECUCION 
+[t=  2902] DESPACHO   PID   29  nivel=0 restante=3
+[t=  2905] ESTADO     PID   29  EJECUCION -> TERMINADO (exit)
+[t=  2905] CTX-SWITCH PID   91  carga de contexto
+[t=  2906] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2906] ESTADO     PID   91  LISTO     -> EJECUCION 
+[t=  2906] DESPACHO   PID   91  nivel=0 restante=4
+[t=  2909] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2910] ESTADO     PID   91  EJECUCION -> TERMINADO (exit)
+[t=  2910] CTX-SWITCH PID   70  carga de contexto
+[t=  2911] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  2911] DESPACHO   PID   70  nivel=0 restante=64
+[t=  2915] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2915] CTX-SWITCH PID   74  carga de contexto
+[t=  2916] ESTADO     PID   74  LISTO     -> EJECUCION 
+[t=  2916] DESPACHO   PID   74  nivel=0 restante=9
+[t=  2923] ESTADO     PID   74  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2923] CTX-SWITCH PID   72  carga de contexto
+[t=  2924] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  2924] DESPACHO   PID   72  nivel=0 restante=54
+[t=  2928] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2930] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2930] CTX-SWITCH PID    3  carga de contexto
+[t=  2931] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  2931] DESPACHO   PID    3  nivel=0 restante=100
+[t=  2938] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2938] CTX-SWITCH PID   87  carga de contexto
+[t=  2939] ESTADO     PID   87  LISTO     -> EJECUCION 
+[t=  2939] DESPACHO   PID   87  nivel=0 restante=7
+[t=  2942] ESTADO     PID   74  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2943] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2945] ESTADO     PID   87  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2945] CTX-SWITCH PID   22  carga de contexto
+[t=  2946] ESTADO     PID   22  LISTO     -> EJECUCION 
+[t=  2946] DESPACHO   PID   22  nivel=0 restante=3
+[t=  2949] ESTADO     PID   22  EJECUCION -> TERMINADO (exit)
+[t=  2949] CTX-SWITCH PID   40  carga de contexto
+[t=  2950] ESTADO     PID   87  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2950] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  2950] DESPACHO   PID   40  nivel=0 restante=96
+[t=  2953] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2953] CTX-SWITCH PID   76  carga de contexto
+[t=  2954] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  2954] DESPACHO   PID   76  nivel=0 restante=69
+[t=  2957] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2957] CTX-SWITCH PID   12  carga de contexto
+[t=  2958] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2958] ESTADO     PID   12  LISTO     -> EJECUCION 
+[t=  2958] DESPACHO   PID   12  nivel=0 restante=8
+[t=  2960] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2964] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2966] ESTADO     PID   12  EJECUCION -> TERMINADO (exit)
+[t=  2966] CTX-SWITCH PID   48  carga de contexto
+[t=  2967] ESTADO     PID   48  LISTO     -> EJECUCION 
+[t=  2967] DESPACHO   PID   48  nivel=0 restante=12
+[t=  2970] ESTADO     PID   48  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2970] CTX-SWITCH PID   27  carga de contexto
+[t=  2971] ESTADO     PID   27  LISTO     -> EJECUCION 
+[t=  2971] DESPACHO   PID   27  nivel=0 restante=7
+[t=  2975] ESTADO     PID   27  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2975] CTX-SWITCH PID   15  carga de contexto
+[t=  2976] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  2976] DESPACHO   PID   15  nivel=0 restante=52
+[t=  2978] ESTADO     PID   48  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2981] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2981] CTX-SWITCH PID   90  carga de contexto
+[t=  2982] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  2982] DESPACHO   PID   90  nivel=0 restante=90
+[t=  2986] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2986] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2986] CTX-SWITCH PID   99  carga de contexto
+[t=  2987] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  2987] DESPACHO   PID   99  nivel=0 restante=105
+[t=  2992] ESTADO     PID   27  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  2994] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2994] CTX-SWITCH PID   59  carga de contexto
+[t=  2995] ESTADO     PID   59  LISTO     -> EJECUCION 
+[t=  2995] DESPACHO   PID   59  nivel=0 restante=7
+[t=  2998] ESTADO     PID   59  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  2998] CTX-SWITCH PID   94  carga de contexto
+[t=  2999] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  2999] DESPACHO   PID   94  nivel=0 restante=84
+[t=  3000] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3005] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3005] CTX-SWITCH PID   24  carga de contexto
+[t=  3006] ESTADO     PID   24  LISTO     -> EJECUCION 
+[t=  3006] DESPACHO   PID   24  nivel=0 restante=6
+[t=  3011] ESTADO     PID   59  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3012] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3012] ESTADO     PID   24  EJECUCION -> TERMINADO (exit)
+[t=  3012] CTX-SWITCH PID   37  carga de contexto
+[t=  3013] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  3013] DESPACHO   PID   37  nivel=0 restante=29
+[t=  3016] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3020] ESTADO     PID   37  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3020] CTX-SWITCH PID   65  carga de contexto
+[t=  3021] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3021] DESPACHO   PID   65  nivel=0 restante=96
+[t=  3027] ESTADO     PID   37  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3029] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3029] CTX-SWITCH PID    9  carga de contexto
+[t=  3030] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3030] DESPACHO   PID    9  nivel=0 restante=93
+[t=  3038] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3038] CTX-SWITCH PID   33  carga de contexto
+[t=  3039] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3039] ESTADO     PID   33  LISTO     -> EJECUCION 
+[t=  3039] DESPACHO   PID   33  nivel=0 restante=2
+[t=  3041] ESTADO     PID   33  EJECUCION -> TERMINADO (exit)
+[t=  3041] CTX-SWITCH PID   10  carga de contexto
+[t=  3042] ESTADO     PID   10  LISTO     -> EJECUCION 
+[t=  3042] DESPACHO   PID   10  nivel=0 restante=2
+[t=  3044] ESTADO     PID   10  EJECUCION -> TERMINADO (exit)
+[t=  3044] CTX-SWITCH PID   50  carga de contexto
+[t=  3045] ESTADO     PID   50  LISTO     -> EJECUCION 
+[t=  3045] DESPACHO   PID   50  nivel=0 restante=2
+[t=  3047] ESTADO     PID   50  EJECUCION -> TERMINADO (exit)
+[t=  3047] CTX-SWITCH PID   79  carga de contexto
+[t=  3048] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3048] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3048] DESPACHO   PID   79  nivel=0 restante=52
+[t=  3056] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3056] CTX-SWITCH PID   69  carga de contexto
+[t=  3057] ESTADO     PID   69  LISTO     -> EJECUCION 
+[t=  3057] DESPACHO   PID   69  nivel=0 restante=21
+[t=  3065] ESTADO     PID   69  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3065] CTX-SWITCH PID   95  carga de contexto
+[t=  3066] ESTADO     PID   95  LISTO     -> EJECUCION 
+[t=  3066] DESPACHO   PID   95  nivel=0 restante=8
+[t=  3070] ESTADO     PID   95  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3070] CTX-SWITCH PID  110  carga de contexto
+[t=  3071] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3071] DESPACHO   PID  110  nivel=0 restante=95
+[t=  3075] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3076] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3076] CTX-SWITCH PID   25  carga de contexto
+[t=  3077] ESTADO     PID   69  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3077] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3077] DESPACHO   PID   25  nivel=0 restante=84
+[t=  3081] ESTADO     PID   95  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3081] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3081] CTX-SWITCH PID   39  carga de contexto
+[t=  3082] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  3082] DESPACHO   PID   39  nivel=0 restante=41
+[t=  3091] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3091] CTX-SWITCH PID   70  carga de contexto
+[t=  3092] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3092] DESPACHO   PID   70  nivel=0 restante=60
+[t=  3093] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3096] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3096] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3096] CTX-SWITCH PID   74  carga de contexto
+[t=  3097] ESTADO     PID   74  LISTO     -> EJECUCION 
+[t=  3097] DESPACHO   PID   74  nivel=0 restante=2
+[t=  3099] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3099] ESTADO     PID   74  EJECUCION -> TERMINADO (exit)
+[t=  3099] CTX-SWITCH PID   72  carga de contexto
+[t=  3100] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3100] DESPACHO   PID   72  nivel=0 restante=48
+[t=  3106] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3106] CTX-SWITCH PID   87  carga de contexto
+[t=  3107] ESTADO     PID   87  LISTO     -> EJECUCION 
+[t=  3107] DESPACHO   PID   87  nivel=0 restante=1
+[t=  3108] ESTADO     PID   87  EJECUCION -> TERMINADO (exit)
+[t=  3108] CTX-SWITCH PID    3  carga de contexto
+[t=  3109] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3109] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3109] DESPACHO   PID    3  nivel=0 restante=93
+[t=  3116] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3116] CTX-SWITCH PID   40  carga de contexto
+[t=  3117] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3117] DESPACHO   PID   40  nivel=0 restante=93
+[t=  3119] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3120] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3120] CTX-SWITCH PID   76  carga de contexto
+[t=  3121] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3121] DESPACHO   PID   76  nivel=0 restante=66
+[t=  3124] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3124] CTX-SWITCH PID   48  carga de contexto
+[t=  3125] ESTADO     PID   48  LISTO     -> EJECUCION 
+[t=  3125] DESPACHO   PID   48  nivel=0 restante=9
+[t=  3127] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3128] ESTADO     PID   48  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3128] CTX-SWITCH PID   15  carga de contexto
+[t=  3129] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3129] DESPACHO   PID   15  nivel=0 restante=47
+[t=  3131] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3134] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3134] CTX-SWITCH PID   27  carga de contexto
+[t=  3135] ESTADO     PID   27  LISTO     -> EJECUCION 
+[t=  3135] DESPACHO   PID   27  nivel=0 restante=3
+[t=  3136] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3136] ESTADO     PID   48  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3138] ESTADO     PID   27  EJECUCION -> TERMINADO (exit)
+[t=  3138] CTX-SWITCH PID   90  carga de contexto
+[t=  3139] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3139] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3139] DESPACHO   PID   90  nivel=0 restante=86
+[t=  3143] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3143] CTX-SWITCH PID   59  carga de contexto
+[t=  3144] ESTADO     PID   59  LISTO     -> EJECUCION 
+[t=  3144] DESPACHO   PID   59  nivel=0 restante=4
+[t=  3147] ESTADO     PID   59  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3147] CTX-SWITCH PID   99  carga de contexto
+[t=  3148] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3148] DESPACHO   PID   99  nivel=0 restante=98
+[t=  3155] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3155] CTX-SWITCH PID   94  carga de contexto
+[t=  3156] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3156] DESPACHO   PID   94  nivel=0 restante=78
+[t=  3157] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3160] ESTADO     PID   59  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3162] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3162] CTX-SWITCH PID   37  carga de contexto
+[t=  3163] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  3163] DESPACHO   PID   37  nivel=0 restante=22
+[t=  3170] ESTADO     PID   37  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3170] CTX-SWITCH PID   65  carga de contexto
+[t=  3171] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3171] DESPACHO   PID   65  nivel=0 restante=88
+[t=  3173] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3173] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3177] ESTADO     PID   37  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3179] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3179] CTX-SWITCH PID    9  carga de contexto
+[t=  3180] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3180] DESPACHO   PID    9  nivel=0 restante=85
+[t=  3188] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3188] CTX-SWITCH PID   79  carga de contexto
+[t=  3189] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3189] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3189] DESPACHO   PID   79  nivel=0 restante=44
+[t=  3197] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3197] CTX-SWITCH PID   69  carga de contexto
+[t=  3198] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3198] ESTADO     PID   69  LISTO     -> EJECUCION 
+[t=  3198] DESPACHO   PID   69  nivel=0 restante=13
+[t=  3206] ESTADO     PID   69  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3206] CTX-SWITCH PID   95  carga de contexto
+[t=  3207] ESTADO     PID   95  LISTO     -> EJECUCION 
+[t=  3207] DESPACHO   PID   95  nivel=0 restante=4
+[t=  3211] ESTADO     PID   95  EJECUCION -> TERMINADO (exit)
+[t=  3211] CTX-SWITCH PID  110  carga de contexto
+[t=  3212] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3212] DESPACHO   PID  110  nivel=0 restante=90
+[t=  3216] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3217] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3217] CTX-SWITCH PID   25  carga de contexto
+[t=  3218] ESTADO     PID   69  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3218] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3218] DESPACHO   PID   25  nivel=0 restante=80
+[t=  3222] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3222] CTX-SWITCH PID   39  carga de contexto
+[t=  3223] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  3223] DESPACHO   PID   39  nivel=0 restante=32
+[t=  3232] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3232] CTX-SWITCH PID   70  carga de contexto
+[t=  3233] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3233] DESPACHO   PID   70  nivel=0 restante=56
+[t=  3234] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3237] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3237] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3237] CTX-SWITCH PID   72  carga de contexto
+[t=  3238] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3238] DESPACHO   PID   72  nivel=0 restante=42
+[t=  3240] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3244] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3244] CTX-SWITCH PID   40  carga de contexto
+[t=  3245] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3245] DESPACHO   PID   40  nivel=0 restante=90
+[t=  3248] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3248] CTX-SWITCH PID   76  carga de contexto
+[t=  3249] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3249] DESPACHO   PID   76  nivel=0 restante=63
+[t=  3250] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3252] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3252] CTX-SWITCH PID    3  carga de contexto
+[t=  3253] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3253] DESPACHO   PID    3  nivel=0 restante=86
+[t=  3255] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3257] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3259] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3260] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3260] CTX-SWITCH PID   48  carga de contexto
+[t=  3261] ESTADO     PID   48  LISTO     -> EJECUCION 
+[t=  3261] DESPACHO   PID   48  nivel=0 restante=6
+[t=  3264] ESTADO     PID   48  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3264] CTX-SWITCH PID   15  carga de contexto
+[t=  3265] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3265] DESPACHO   PID   15  nivel=0 restante=42
+[t=  3270] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3270] CTX-SWITCH PID   90  carga de contexto
+[t=  3271] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3271] DESPACHO   PID   90  nivel=0 restante=82
+[t=  3272] ESTADO     PID   48  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3275] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3275] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3275] CTX-SWITCH PID   59  carga de contexto
+[t=  3276] ESTADO     PID   59  LISTO     -> EJECUCION 
+[t=  3276] DESPACHO   PID   59  nivel=0 restante=1
+[t=  3277] ESTADO     PID   59  EJECUCION -> TERMINADO (exit)
+[t=  3277] CTX-SWITCH PID   94  carga de contexto
+[t=  3278] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3278] DESPACHO   PID   94  nivel=0 restante=72
+[t=  3280] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3284] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3284] CTX-SWITCH PID   99  carga de contexto
+[t=  3285] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3285] DESPACHO   PID   99  nivel=0 restante=91
+[t=  3289] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3292] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3292] CTX-SWITCH PID   37  carga de contexto
+[t=  3293] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  3293] DESPACHO   PID   37  nivel=0 restante=15
+[t=  3295] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3300] ESTADO     PID   37  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3300] CTX-SWITCH PID   65  carga de contexto
+[t=  3301] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3301] DESPACHO   PID   65  nivel=0 restante=80
+[t=  3307] ESTADO     PID   37  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3309] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3309] CTX-SWITCH PID    9  carga de contexto
+[t=  3310] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3310] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3310] DESPACHO   PID    9  nivel=0 restante=77
+[t=  3318] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3318] CTX-SWITCH PID   79  carga de contexto
+[t=  3319] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3319] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3319] DESPACHO   PID   79  nivel=0 restante=36
+[t=  3327] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3327] CTX-SWITCH PID   69  carga de contexto
+[t=  3328] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3328] ESTADO     PID   69  LISTO     -> EJECUCION 
+[t=  3328] DESPACHO   PID   69  nivel=0 restante=5
+[t=  3333] ESTADO     PID   69  EJECUCION -> TERMINADO (exit)
+[t=  3333] CTX-SWITCH PID  110  carga de contexto
+[t=  3334] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3334] DESPACHO   PID  110  nivel=0 restante=85
+[t=  3339] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3339] CTX-SWITCH PID   25  carga de contexto
+[t=  3340] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3340] DESPACHO   PID   25  nivel=0 restante=76
+[t=  3344] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3344] CTX-SWITCH PID   39  carga de contexto
+[t=  3345] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  3345] DESPACHO   PID   39  nivel=0 restante=23
+[t=  3346] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3354] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3354] CTX-SWITCH PID   70  carga de contexto
+[t=  3355] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3355] DESPACHO   PID   70  nivel=0 restante=52
+[t=  3356] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3359] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3359] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3359] CTX-SWITCH PID   40  carga de contexto
+[t=  3360] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3360] DESPACHO   PID   40  nivel=0 restante=87
+[t=  3362] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3363] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3363] CTX-SWITCH PID   72  carga de contexto
+[t=  3364] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3364] DESPACHO   PID   72  nivel=0 restante=36
+[t=  3370] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3370] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3370] CTX-SWITCH PID   76  carga de contexto
+[t=  3371] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3371] DESPACHO   PID   76  nivel=0 restante=60
+[t=  3372] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3374] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3374] CTX-SWITCH PID   48  carga de contexto
+[t=  3375] ESTADO     PID   48  LISTO     -> EJECUCION 
+[t=  3375] DESPACHO   PID   48  nivel=0 restante=3
+[t=  3378] ESTADO     PID   48  EJECUCION -> TERMINADO (exit)
+[t=  3378] CTX-SWITCH PID   15  carga de contexto
+[t=  3379] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3379] DESPACHO   PID   15  nivel=0 restante=37
+[t=  3381] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3383] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3384] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3384] CTX-SWITCH PID    3  carga de contexto
+[t=  3385] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3385] DESPACHO   PID    3  nivel=0 restante=79
+[t=  3389] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3392] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3392] CTX-SWITCH PID   90  carga de contexto
+[t=  3393] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3393] DESPACHO   PID   90  nivel=0 restante=78
+[t=  3397] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3397] CTX-SWITCH PID   94  carga de contexto
+[t=  3398] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3398] DESPACHO   PID   94  nivel=0 restante=66
+[t=  3404] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3404] CTX-SWITCH PID   37  carga de contexto
+[t=  3405] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  3405] DESPACHO   PID   37  nivel=0 restante=8
+[t=  3411] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3412] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3412] ESTADO     PID   37  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3412] CTX-SWITCH PID   99  carga de contexto
+[t=  3413] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3413] DESPACHO   PID   99  nivel=0 restante=84
+[t=  3415] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3419] ESTADO     PID   37  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3420] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3420] CTX-SWITCH PID   65  carga de contexto
+[t=  3421] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3421] DESPACHO   PID   65  nivel=0 restante=72
+[t=  3429] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3429] CTX-SWITCH PID    9  carga de contexto
+[t=  3430] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3430] DESPACHO   PID    9  nivel=0 restante=69
+[t=  3438] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3438] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3438] CTX-SWITCH PID   79  carga de contexto
+[t=  3439] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3439] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3439] DESPACHO   PID   79  nivel=0 restante=28
+[t=  3447] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3447] CTX-SWITCH PID  110  carga de contexto
+[t=  3448] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3448] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3448] DESPACHO   PID  110  nivel=0 restante=80
+[t=  3453] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3453] CTX-SWITCH PID   25  carga de contexto
+[t=  3454] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3454] DESPACHO   PID   25  nivel=0 restante=72
+[t=  3458] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3458] CTX-SWITCH PID   39  carga de contexto
+[t=  3459] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  3459] DESPACHO   PID   39  nivel=0 restante=14
+[t=  3466] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3468] ESTADO     PID   39  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3468] CTX-SWITCH PID   40  carga de contexto
+[t=  3469] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3469] DESPACHO   PID   40  nivel=0 restante=84
+[t=  3470] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3472] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3472] CTX-SWITCH PID   70  carga de contexto
+[t=  3473] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3473] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3473] DESPACHO   PID   70  nivel=0 restante=48
+[t=  3476] ESTADO     PID   39  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3477] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3477] CTX-SWITCH PID   76  carga de contexto
+[t=  3478] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3478] DESPACHO   PID   76  nivel=0 restante=57
+[t=  3479] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3481] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3481] CTX-SWITCH PID   72  carga de contexto
+[t=  3482] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3482] DESPACHO   PID   72  nivel=0 restante=30
+[t=  3488] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3488] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3488] CTX-SWITCH PID   15  carga de contexto
+[t=  3489] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3489] DESPACHO   PID   15  nivel=0 restante=32
+[t=  3490] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3494] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3494] CTX-SWITCH PID   90  carga de contexto
+[t=  3495] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3495] DESPACHO   PID   90  nivel=0 restante=74
+[t=  3499] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3499] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3499] CTX-SWITCH PID    3  carga de contexto
+[t=  3500] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3500] DESPACHO   PID    3  nivel=0 restante=72
+[t=  3501] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3507] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3507] CTX-SWITCH PID   94  carga de contexto
+[t=  3508] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3508] DESPACHO   PID   94  nivel=0 restante=60
+[t=  3513] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3514] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3514] CTX-SWITCH PID   37  carga de contexto
+[t=  3515] ESTADO     PID   37  LISTO     -> EJECUCION 
+[t=  3515] DESPACHO   PID   37  nivel=0 restante=1
+[t=  3516] ESTADO     PID   37  EJECUCION -> TERMINADO (exit)
+[t=  3516] CTX-SWITCH PID   99  carga de contexto
+[t=  3517] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3517] DESPACHO   PID   99  nivel=0 restante=77
+[t=  3524] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3524] CTX-SWITCH PID   65  carga de contexto
+[t=  3525] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3525] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3525] DESPACHO   PID   65  nivel=0 restante=64
+[t=  3527] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3533] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3533] CTX-SWITCH PID    9  carga de contexto
+[t=  3534] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3534] DESPACHO   PID    9  nivel=0 restante=61
+[t=  3542] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3542] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3542] CTX-SWITCH PID   79  carga de contexto
+[t=  3543] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3543] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3543] DESPACHO   PID   79  nivel=0 restante=20
+[t=  3551] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3551] CTX-SWITCH PID  110  carga de contexto
+[t=  3552] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3552] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3552] DESPACHO   PID  110  nivel=0 restante=75
+[t=  3557] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3557] CTX-SWITCH PID   25  carga de contexto
+[t=  3558] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3558] DESPACHO   PID   25  nivel=0 restante=68
+[t=  3562] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3562] CTX-SWITCH PID   39  carga de contexto
+[t=  3563] ESTADO     PID   39  LISTO     -> EJECUCION 
+[t=  3563] DESPACHO   PID   39  nivel=0 restante=5
+[t=  3568] ESTADO     PID   39  EJECUCION -> TERMINADO (exit)
+[t=  3568] CTX-SWITCH PID   40  carga de contexto
+[t=  3569] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3569] DESPACHO   PID   40  nivel=0 restante=81
+[t=  3570] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3572] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3572] CTX-SWITCH PID   76  carga de contexto
+[t=  3573] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3573] DESPACHO   PID   76  nivel=0 restante=54
+[t=  3574] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3576] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3576] CTX-SWITCH PID   70  carga de contexto
+[t=  3577] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3577] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3577] DESPACHO   PID   70  nivel=0 restante=44
+[t=  3579] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3581] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3581] CTX-SWITCH PID   15  carga de contexto
+[t=  3582] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3582] DESPACHO   PID   15  nivel=0 restante=27
+[t=  3583] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3587] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3587] CTX-SWITCH PID   72  carga de contexto
+[t=  3588] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3588] DESPACHO   PID   72  nivel=0 restante=24
+[t=  3592] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3594] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3594] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3594] CTX-SWITCH PID   90  carga de contexto
+[t=  3595] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3595] DESPACHO   PID   90  nivel=0 restante=70
+[t=  3599] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3599] CTX-SWITCH PID   94  carga de contexto
+[t=  3600] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3600] DESPACHO   PID   94  nivel=0 restante=54
+[t=  3606] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3606] CTX-SWITCH PID    3  carga de contexto
+[t=  3607] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3607] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3607] DESPACHO   PID    3  nivel=0 restante=65
+[t=  3613] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3614] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3614] CTX-SWITCH PID   99  carga de contexto
+[t=  3615] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3615] DESPACHO   PID   99  nivel=0 restante=70
+[t=  3617] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3622] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3622] CTX-SWITCH PID   65  carga de contexto
+[t=  3623] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3623] DESPACHO   PID   65  nivel=0 restante=56
+[t=  3631] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3631] CTX-SWITCH PID    9  carga de contexto
+[t=  3632] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3632] DESPACHO   PID    9  nivel=0 restante=53
+[t=  3634] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3640] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3640] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3640] CTX-SWITCH PID   79  carga de contexto
+[t=  3641] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3641] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3641] DESPACHO   PID   79  nivel=0 restante=12
+[t=  3649] ESTADO     PID   79  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3649] CTX-SWITCH PID  110  carga de contexto
+[t=  3650] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3650] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3650] DESPACHO   PID  110  nivel=0 restante=70
+[t=  3655] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3655] CTX-SWITCH PID   25  carga de contexto
+[t=  3656] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3656] DESPACHO   PID   25  nivel=0 restante=64
+[t=  3660] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3660] CTX-SWITCH PID   40  carga de contexto
+[t=  3661] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3661] DESPACHO   PID   40  nivel=0 restante=78
+[t=  3664] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3664] CTX-SWITCH PID   76  carga de contexto
+[t=  3665] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3665] DESPACHO   PID   76  nivel=0 restante=51
+[t=  3668] ESTADO     PID   79  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3668] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3668] CTX-SWITCH PID   15  carga de contexto
+[t=  3669] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3669] DESPACHO   PID   15  nivel=0 restante=22
+[t=  3671] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3672] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3674] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3674] CTX-SWITCH PID   70  carga de contexto
+[t=  3675] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3675] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3675] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3675] DESPACHO   PID   70  nivel=0 restante=40
+[t=  3679] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3679] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3679] CTX-SWITCH PID   72  carga de contexto
+[t=  3680] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3680] DESPACHO   PID   72  nivel=0 restante=18
+[t=  3686] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3686] CTX-SWITCH PID   90  carga de contexto
+[t=  3687] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3687] DESPACHO   PID   90  nivel=0 restante=66
+[t=  3691] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3691] CTX-SWITCH PID   94  carga de contexto
+[t=  3692] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3692] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3692] DESPACHO   PID   94  nivel=0 restante=48
+[t=  3698] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3698] CTX-SWITCH PID    3  carga de contexto
+[t=  3699] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3699] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3699] DESPACHO   PID    3  nivel=0 restante=58
+[t=  3705] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3706] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3706] CTX-SWITCH PID   99  carga de contexto
+[t=  3707] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3707] DESPACHO   PID   99  nivel=0 restante=63
+[t=  3709] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3714] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3714] CTX-SWITCH PID   65  carga de contexto
+[t=  3715] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3715] DESPACHO   PID   65  nivel=0 restante=48
+[t=  3723] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3723] CTX-SWITCH PID    9  carga de contexto
+[t=  3724] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3724] DESPACHO   PID    9  nivel=0 restante=45
+[t=  3726] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3732] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3732] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3732] CTX-SWITCH PID   79  carga de contexto
+[t=  3733] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3733] ESTADO     PID   79  LISTO     -> EJECUCION 
+[t=  3733] DESPACHO   PID   79  nivel=0 restante=4
+[t=  3737] ESTADO     PID   79  EJECUCION -> TERMINADO (exit)
+[t=  3737] CTX-SWITCH PID   40  carga de contexto
+[t=  3738] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3738] DESPACHO   PID   40  nivel=0 restante=75
+[t=  3741] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3741] CTX-SWITCH PID  110  carga de contexto
+[t=  3742] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3742] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3742] DESPACHO   PID  110  nivel=0 restante=65
+[t=  3747] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3747] CTX-SWITCH PID   25  carga de contexto
+[t=  3748] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3748] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3748] DESPACHO   PID   25  nivel=0 restante=60
+[t=  3752] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3752] CTX-SWITCH PID   76  carga de contexto
+[t=  3753] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3753] DESPACHO   PID   76  nivel=0 restante=48
+[t=  3756] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3756] CTX-SWITCH PID   15  carga de contexto
+[t=  3757] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3757] DESPACHO   PID   15  nivel=0 restante=17
+[t=  3762] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3762] CTX-SWITCH PID   70  carga de contexto
+[t=  3763] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3763] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3763] DESPACHO   PID   70  nivel=0 restante=36
+[t=  3764] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3767] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3767] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3767] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3767] CTX-SWITCH PID   72  carga de contexto
+[t=  3768] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3768] DESPACHO   PID   72  nivel=0 restante=12
+[t=  3774] ESTADO     PID   72  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3774] CTX-SWITCH PID   90  carga de contexto
+[t=  3775] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3775] DESPACHO   PID   90  nivel=0 restante=62
+[t=  3779] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3779] CTX-SWITCH PID   94  carga de contexto
+[t=  3780] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3780] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3780] DESPACHO   PID   94  nivel=0 restante=42
+[t=  3786] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3786] CTX-SWITCH PID    3  carga de contexto
+[t=  3787] ESTADO     PID   72  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3787] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3787] DESPACHO   PID    3  nivel=0 restante=51
+[t=  3793] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3794] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3794] CTX-SWITCH PID   99  carga de contexto
+[t=  3795] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3795] DESPACHO   PID   99  nivel=0 restante=56
+[t=  3797] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3802] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3802] CTX-SWITCH PID   65  carga de contexto
+[t=  3803] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3803] DESPACHO   PID   65  nivel=0 restante=40
+[t=  3811] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3811] CTX-SWITCH PID    9  carga de contexto
+[t=  3812] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3812] DESPACHO   PID    9  nivel=0 restante=37
+[t=  3814] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3820] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3820] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3820] CTX-SWITCH PID   40  carga de contexto
+[t=  3821] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3821] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3821] DESPACHO   PID   40  nivel=0 restante=72
+[t=  3824] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3824] CTX-SWITCH PID   76  carga de contexto
+[t=  3825] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3825] DESPACHO   PID   76  nivel=0 restante=45
+[t=  3828] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3828] CTX-SWITCH PID  110  carga de contexto
+[t=  3829] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3829] DESPACHO   PID  110  nivel=0 restante=60
+[t=  3830] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3831] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3834] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3834] CTX-SWITCH PID   15  carga de contexto
+[t=  3835] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3835] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3835] DESPACHO   PID   15  nivel=0 restante=12
+[t=  3840] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3840] CTX-SWITCH PID   25  carga de contexto
+[t=  3841] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3841] DESPACHO   PID   25  nivel=0 restante=56
+[t=  3845] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3845] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3845] CTX-SWITCH PID   70  carga de contexto
+[t=  3846] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3846] DESPACHO   PID   70  nivel=0 restante=32
+[t=  3850] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3850] CTX-SWITCH PID   72  carga de contexto
+[t=  3851] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3851] ESTADO     PID   72  LISTO     -> EJECUCION 
+[t=  3851] DESPACHO   PID   72  nivel=0 restante=6
+[t=  3857] ESTADO     PID   72  EJECUCION -> TERMINADO (exit)
+[t=  3857] CTX-SWITCH PID   90  carga de contexto
+[t=  3858] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3858] DESPACHO   PID   90  nivel=0 restante=58
+[t=  3860] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3862] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3862] CTX-SWITCH PID   94  carga de contexto
+[t=  3863] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3863] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3863] DESPACHO   PID   94  nivel=0 restante=36
+[t=  3869] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3869] CTX-SWITCH PID    3  carga de contexto
+[t=  3870] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3870] DESPACHO   PID    3  nivel=0 restante=44
+[t=  3876] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3877] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3877] CTX-SWITCH PID   99  carga de contexto
+[t=  3878] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3878] DESPACHO   PID   99  nivel=0 restante=49
+[t=  3880] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3885] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3885] CTX-SWITCH PID   65  carga de contexto
+[t=  3886] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3886] DESPACHO   PID   65  nivel=0 restante=32
+[t=  3894] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3894] CTX-SWITCH PID    9  carga de contexto
+[t=  3895] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3895] DESPACHO   PID    9  nivel=0 restante=29
+[t=  3897] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3903] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3903] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3903] CTX-SWITCH PID   40  carga de contexto
+[t=  3904] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3904] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3904] DESPACHO   PID   40  nivel=0 restante=69
+[t=  3907] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3907] CTX-SWITCH PID   76  carga de contexto
+[t=  3908] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3908] DESPACHO   PID   76  nivel=0 restante=42
+[t=  3911] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3911] CTX-SWITCH PID   15  carga de contexto
+[t=  3912] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3912] DESPACHO   PID   15  nivel=0 restante=7
+[t=  3913] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3914] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3917] ESTADO     PID   15  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3917] CTX-SWITCH PID  110  carga de contexto
+[t=  3918] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3918] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3918] DESPACHO   PID  110  nivel=0 restante=55
+[t=  3922] ESTADO     PID   15  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3923] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3923] CTX-SWITCH PID   25  carga de contexto
+[t=  3924] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3924] DESPACHO   PID   25  nivel=0 restante=52
+[t=  3928] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3928] CTX-SWITCH PID   70  carga de contexto
+[t=  3929] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  3929] DESPACHO   PID   70  nivel=0 restante=28
+[t=  3933] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3933] CTX-SWITCH PID   90  carga de contexto
+[t=  3934] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  3934] DESPACHO   PID   90  nivel=0 restante=54
+[t=  3938] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3938] CTX-SWITCH PID   94  carga de contexto
+[t=  3939] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  3939] DESPACHO   PID   94  nivel=0 restante=30
+[t=  3940] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3943] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3945] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3945] CTX-SWITCH PID    3  carga de contexto
+[t=  3946] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3946] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  3946] DESPACHO   PID    3  nivel=0 restante=37
+[t=  3952] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3953] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3953] CTX-SWITCH PID   99  carga de contexto
+[t=  3954] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  3954] DESPACHO   PID   99  nivel=0 restante=42
+[t=  3956] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3961] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3961] CTX-SWITCH PID   65  carga de contexto
+[t=  3962] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  3962] DESPACHO   PID   65  nivel=0 restante=24
+[t=  3970] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3970] CTX-SWITCH PID    9  carga de contexto
+[t=  3971] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  3971] DESPACHO   PID    9  nivel=0 restante=21
+[t=  3973] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3979] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3979] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3979] CTX-SWITCH PID   40  carga de contexto
+[t=  3980] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3980] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  3980] DESPACHO   PID   40  nivel=0 restante=66
+[t=  3983] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3983] CTX-SWITCH PID   76  carga de contexto
+[t=  3984] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  3984] DESPACHO   PID   76  nivel=0 restante=39
+[t=  3987] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3987] CTX-SWITCH PID   15  carga de contexto
+[t=  3988] ESTADO     PID   15  LISTO     -> EJECUCION 
+[t=  3988] DESPACHO   PID   15  nivel=0 restante=2
+[t=  3989] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3990] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3990] ESTADO     PID   15  EJECUCION -> TERMINADO (exit)
+[t=  3990] CTX-SWITCH PID  110  carga de contexto
+[t=  3991] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  3991] DESPACHO   PID  110  nivel=0 restante=50
+[t=  3994] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  3996] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  3996] CTX-SWITCH PID   25  carga de contexto
+[t=  3997] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  3997] DESPACHO   PID   25  nivel=0 restante=48
+[t=  4001] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4001] CTX-SWITCH PID   70  carga de contexto
+[t=  4002] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4002] DESPACHO   PID   70  nivel=0 restante=24
+[t=  4006] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4006] CTX-SWITCH PID   90  carga de contexto
+[t=  4007] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4007] DESPACHO   PID   90  nivel=0 restante=50
+[t=  4011] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4011] CTX-SWITCH PID   94  carga de contexto
+[t=  4012] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  4012] DESPACHO   PID   94  nivel=0 restante=24
+[t=  4013] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4016] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4018] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4018] CTX-SWITCH PID    3  carga de contexto
+[t=  4019] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4019] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  4019] DESPACHO   PID    3  nivel=0 restante=30
+[t=  4025] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4026] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4026] CTX-SWITCH PID   99  carga de contexto
+[t=  4027] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  4027] DESPACHO   PID   99  nivel=0 restante=35
+[t=  4029] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4034] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4034] CTX-SWITCH PID   65  carga de contexto
+[t=  4035] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  4035] DESPACHO   PID   65  nivel=0 restante=16
+[t=  4043] ESTADO     PID   65  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4043] CTX-SWITCH PID    9  carga de contexto
+[t=  4044] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  4044] DESPACHO   PID    9  nivel=0 restante=13
+[t=  4046] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4052] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4052] ESTADO     PID    9  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4052] CTX-SWITCH PID   40  carga de contexto
+[t=  4053] ESTADO     PID   65  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4053] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4053] DESPACHO   PID   40  nivel=0 restante=63
+[t=  4056] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4056] CTX-SWITCH PID   76  carga de contexto
+[t=  4057] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4057] DESPACHO   PID   76  nivel=0 restante=36
+[t=  4060] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4060] CTX-SWITCH PID  110  carga de contexto
+[t=  4061] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4061] DESPACHO   PID  110  nivel=0 restante=45
+[t=  4062] ESTADO     PID    9  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4063] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4066] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4066] CTX-SWITCH PID   25  carga de contexto
+[t=  4067] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4067] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4067] DESPACHO   PID   25  nivel=0 restante=44
+[t=  4071] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4071] CTX-SWITCH PID   70  carga de contexto
+[t=  4072] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4072] DESPACHO   PID   70  nivel=0 restante=20
+[t=  4076] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4076] CTX-SWITCH PID   90  carga de contexto
+[t=  4077] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4077] DESPACHO   PID   90  nivel=0 restante=46
+[t=  4081] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4081] CTX-SWITCH PID   94  carga de contexto
+[t=  4082] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  4082] DESPACHO   PID   94  nivel=0 restante=18
+[t=  4083] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4086] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4088] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4088] CTX-SWITCH PID    3  carga de contexto
+[t=  4089] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4089] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  4089] DESPACHO   PID    3  nivel=0 restante=23
+[t=  4095] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4096] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4096] CTX-SWITCH PID   99  carga de contexto
+[t=  4097] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  4097] DESPACHO   PID   99  nivel=0 restante=28
+[t=  4099] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4104] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4104] CTX-SWITCH PID   65  carga de contexto
+[t=  4105] ESTADO     PID   65  LISTO     -> EJECUCION 
+[t=  4105] DESPACHO   PID   65  nivel=0 restante=8
+[t=  4113] ESTADO     PID   65  EJECUCION -> TERMINADO (exit)
+[t=  4113] CTX-SWITCH PID    9  carga de contexto
+[t=  4114] ESTADO     PID    9  LISTO     -> EJECUCION 
+[t=  4114] DESPACHO   PID    9  nivel=0 restante=5
+[t=  4116] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4119] ESTADO     PID    9  EJECUCION -> TERMINADO (exit)
+[t=  4119] CTX-SWITCH PID   40  carga de contexto
+[t=  4120] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4120] DESPACHO   PID   40  nivel=0 restante=60
+[t=  4122] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4123] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4123] CTX-SWITCH PID   76  carga de contexto
+[t=  4124] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4124] DESPACHO   PID   76  nivel=0 restante=33
+[t=  4127] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4127] CTX-SWITCH PID  110  carga de contexto
+[t=  4128] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4128] DESPACHO   PID  110  nivel=0 restante=40
+[t=  4130] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4133] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4133] CTX-SWITCH PID   25  carga de contexto
+[t=  4134] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4134] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4134] DESPACHO   PID   25  nivel=0 restante=40
+[t=  4138] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4138] CTX-SWITCH PID   70  carga de contexto
+[t=  4139] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4139] DESPACHO   PID   70  nivel=0 restante=16
+[t=  4143] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4143] CTX-SWITCH PID   90  carga de contexto
+[t=  4144] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4144] DESPACHO   PID   90  nivel=0 restante=42
+[t=  4148] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4148] CTX-SWITCH PID   94  carga de contexto
+[t=  4149] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  4149] DESPACHO   PID   94  nivel=0 restante=12
+[t=  4150] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4153] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4155] ESTADO     PID   94  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4155] CTX-SWITCH PID    3  carga de contexto
+[t=  4156] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4156] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  4156] DESPACHO   PID    3  nivel=0 restante=16
+[t=  4162] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4163] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4163] CTX-SWITCH PID   99  carga de contexto
+[t=  4164] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  4164] DESPACHO   PID   99  nivel=0 restante=21
+[t=  4166] ESTADO     PID   94  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4171] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4171] CTX-SWITCH PID   40  carga de contexto
+[t=  4172] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4172] DESPACHO   PID   40  nivel=0 restante=57
+[t=  4175] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4175] CTX-SWITCH PID   76  carga de contexto
+[t=  4176] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4176] DESPACHO   PID   76  nivel=0 restante=30
+[t=  4179] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4179] CTX-SWITCH PID  110  carga de contexto
+[t=  4180] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4180] DESPACHO   PID  110  nivel=0 restante=35
+[t=  4182] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4183] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4185] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4185] CTX-SWITCH PID   25  carga de contexto
+[t=  4186] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4186] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4186] DESPACHO   PID   25  nivel=0 restante=36
+[t=  4189] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4190] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4190] CTX-SWITCH PID   70  carga de contexto
+[t=  4191] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4191] DESPACHO   PID   70  nivel=0 restante=12
+[t=  4195] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4195] CTX-SWITCH PID   90  carga de contexto
+[t=  4196] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4196] DESPACHO   PID   90  nivel=0 restante=38
+[t=  4200] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4200] CTX-SWITCH PID   94  carga de contexto
+[t=  4201] ESTADO     PID   94  LISTO     -> EJECUCION 
+[t=  4201] DESPACHO   PID   94  nivel=0 restante=6
+[t=  4202] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4205] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4207] ESTADO     PID   94  EJECUCION -> TERMINADO (exit)
+[t=  4207] CTX-SWITCH PID   40  carga de contexto
+[t=  4208] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4208] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4208] DESPACHO   PID   40  nivel=0 restante=54
+[t=  4211] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4211] CTX-SWITCH PID    3  carga de contexto
+[t=  4212] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  4212] DESPACHO   PID    3  nivel=0 restante=9
+[t=  4214] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4218] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4219] ESTADO     PID    3  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4219] CTX-SWITCH PID   76  carga de contexto
+[t=  4220] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4220] DESPACHO   PID   76  nivel=0 restante=27
+[t=  4223] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4223] CTX-SWITCH PID   99  carga de contexto
+[t=  4224] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  4224] DESPACHO   PID   99  nivel=0 restante=14
+[t=  4230] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4231] ESTADO     PID   99  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4231] CTX-SWITCH PID  110  carga de contexto
+[t=  4232] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4232] DESPACHO   PID  110  nivel=0 restante=30
+[t=  4237] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4237] CTX-SWITCH PID   25  carga de contexto
+[t=  4238] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4238] DESPACHO   PID   25  nivel=0 restante=32
+[t=  4239] ESTADO     PID    3  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4242] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4242] CTX-SWITCH PID   70  carga de contexto
+[t=  4243] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4243] DESPACHO   PID   70  nivel=0 restante=8
+[t=  4247] ESTADO     PID   70  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4247] CTX-SWITCH PID   90  carga de contexto
+[t=  4248] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4248] DESPACHO   PID   90  nivel=0 restante=34
+[t=  4249] ESTADO     PID   99  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4252] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4252] CTX-SWITCH PID   40  carga de contexto
+[t=  4253] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4253] DESPACHO   PID   40  nivel=0 restante=51
+[t=  4254] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4256] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4256] CTX-SWITCH PID   76  carga de contexto
+[t=  4257] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4257] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4257] DESPACHO   PID   76  nivel=0 restante=24
+[t=  4260] ESTADO     PID   70  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4260] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4260] CTX-SWITCH PID    3  carga de contexto
+[t=  4261] ESTADO     PID    3  LISTO     -> EJECUCION 
+[t=  4261] DESPACHO   PID    3  nivel=0 restante=2
+[t=  4263] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4263] ESTADO     PID    3  EJECUCION -> TERMINADO (exit)
+[t=  4263] CTX-SWITCH PID   99  carga de contexto
+[t=  4264] ESTADO     PID   99  LISTO     -> EJECUCION 
+[t=  4264] DESPACHO   PID   99  nivel=0 restante=7
+[t=  4266] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4267] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4271] ESTADO     PID   99  EJECUCION -> TERMINADO (exit)
+[t=  4271] CTX-SWITCH PID  110  carga de contexto
+[t=  4272] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4272] DESPACHO   PID  110  nivel=0 restante=25
+[t=  4277] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4277] CTX-SWITCH PID   25  carga de contexto
+[t=  4278] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4278] DESPACHO   PID   25  nivel=0 restante=28
+[t=  4282] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4282] CTX-SWITCH PID   70  carga de contexto
+[t=  4283] ESTADO     PID   70  LISTO     -> EJECUCION 
+[t=  4283] DESPACHO   PID   70  nivel=0 restante=4
+[t=  4287] ESTADO     PID   70  EJECUCION -> TERMINADO (exit)
+[t=  4287] CTX-SWITCH PID   40  carga de contexto
+[t=  4288] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4288] DESPACHO   PID   40  nivel=0 restante=48
+[t=  4291] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4291] CTX-SWITCH PID   90  carga de contexto
+[t=  4292] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4292] DESPACHO   PID   90  nivel=0 restante=30
+[t=  4294] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4296] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4296] CTX-SWITCH PID   76  carga de contexto
+[t=  4297] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4297] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4297] DESPACHO   PID   76  nivel=0 restante=21
+[t=  4298] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4300] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4300] CTX-SWITCH PID  110  carga de contexto
+[t=  4301] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4301] DESPACHO   PID  110  nivel=0 restante=20
+[t=  4306] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4306] CTX-SWITCH PID   25  carga de contexto
+[t=  4307] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4307] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4307] DESPACHO   PID   25  nivel=0 restante=24
+[t=  4310] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4311] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4311] CTX-SWITCH PID   40  carga de contexto
+[t=  4312] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4312] DESPACHO   PID   40  nivel=0 restante=45
+[t=  4315] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4315] CTX-SWITCH PID   76  carga de contexto
+[t=  4316] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4316] DESPACHO   PID   76  nivel=0 restante=18
+[t=  4319] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4319] CTX-SWITCH PID   90  carga de contexto
+[t=  4320] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4320] DESPACHO   PID   90  nivel=0 restante=26
+[t=  4322] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4323] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4324] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4324] CTX-SWITCH PID   40  carga de contexto
+[t=  4325] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4325] DESPACHO   PID   40  nivel=0 restante=42
+[t=  4326] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4326] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4328] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4328] CTX-SWITCH PID  110  carga de contexto
+[t=  4329] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4329] DESPACHO   PID  110  nivel=0 restante=15
+[t=  4334] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4334] CTX-SWITCH PID   25  carga de contexto
+[t=  4335] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4335] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4335] DESPACHO   PID   25  nivel=0 restante=20
+[t=  4338] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4339] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4339] CTX-SWITCH PID   76  carga de contexto
+[t=  4340] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4340] DESPACHO   PID   76  nivel=0 restante=15
+[t=  4343] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4343] CTX-SWITCH PID   40  carga de contexto
+[t=  4344] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4344] DESPACHO   PID   40  nivel=0 restante=39
+[t=  4347] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4347] CTX-SWITCH PID   90  carga de contexto
+[t=  4348] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4348] DESPACHO   PID   90  nivel=0 restante=22
+[t=  4350] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4351] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4352] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4352] CTX-SWITCH PID   76  carga de contexto
+[t=  4353] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4353] DESPACHO   PID   76  nivel=0 restante=12
+[t=  4354] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4354] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4356] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4356] CTX-SWITCH PID  110  carga de contexto
+[t=  4357] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4357] DESPACHO   PID  110  nivel=0 restante=10
+[t=  4362] ESTADO     PID  110  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4362] CTX-SWITCH PID   25  carga de contexto
+[t=  4363] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4363] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4363] DESPACHO   PID   25  nivel=0 restante=16
+[t=  4366] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4367] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4367] CTX-SWITCH PID   40  carga de contexto
+[t=  4368] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4368] DESPACHO   PID   40  nivel=0 restante=36
+[t=  4371] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4371] CTX-SWITCH PID   76  carga de contexto
+[t=  4372] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4372] DESPACHO   PID   76  nivel=0 restante=9
+[t=  4375] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4375] CTX-SWITCH PID   90  carga de contexto
+[t=  4376] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4376] DESPACHO   PID   90  nivel=0 restante=18
+[t=  4378] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4379] ESTADO     PID  110  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4380] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4380] CTX-SWITCH PID   40  carga de contexto
+[t=  4381] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4381] DESPACHO   PID   40  nivel=0 restante=33
+[t=  4382] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4382] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4384] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4384] CTX-SWITCH PID  110  carga de contexto
+[t=  4385] ESTADO     PID  110  LISTO     -> EJECUCION 
+[t=  4385] DESPACHO   PID  110  nivel=0 restante=5
+[t=  4390] ESTADO     PID  110  EJECUCION -> TERMINADO (exit)
+[t=  4390] CTX-SWITCH PID   25  carga de contexto
+[t=  4391] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4391] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4391] DESPACHO   PID   25  nivel=0 restante=12
+[t=  4394] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4395] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4395] CTX-SWITCH PID   76  carga de contexto
+[t=  4396] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4396] DESPACHO   PID   76  nivel=0 restante=6
+[t=  4399] ESTADO     PID   76  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4399] CTX-SWITCH PID   40  carga de contexto
+[t=  4400] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4400] DESPACHO   PID   40  nivel=0 restante=30
+[t=  4403] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4403] CTX-SWITCH PID   90  carga de contexto
+[t=  4404] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4404] DESPACHO   PID   90  nivel=0 restante=14
+[t=  4406] ESTADO     PID   76  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4408] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4408] CTX-SWITCH PID   76  carga de contexto
+[t=  4409] ESTADO     PID   76  LISTO     -> EJECUCION 
+[t=  4409] DESPACHO   PID   76  nivel=0 restante=3
+[t=  4410] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4410] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4412] ESTADO     PID   76  EJECUCION -> TERMINADO (exit)
+[t=  4412] CTX-SWITCH PID   25  carga de contexto
+[t=  4413] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4413] DESPACHO   PID   25  nivel=0 restante=8
+[t=  4417] ESTADO     PID   25  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4417] CTX-SWITCH PID   40  carga de contexto
+[t=  4418] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4418] DESPACHO   PID   40  nivel=0 restante=27
+[t=  4421] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4422] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4422] CTX-SWITCH PID   90  carga de contexto
+[t=  4423] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4423] DESPACHO   PID   90  nivel=0 restante=10
+[t=  4427] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4428] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4428] CTX-SWITCH PID   40  carga de contexto
+[t=  4429] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4429] DESPACHO   PID   40  nivel=0 restante=24
+[t=  4432] ESTADO     PID   25  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4432] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4432] CTX-SWITCH PID   25  carga de contexto
+[t=  4433] ESTADO     PID   25  LISTO     -> EJECUCION 
+[t=  4433] DESPACHO   PID   25  nivel=0 restante=4
+[t=  4437] ESTADO     PID   25  EJECUCION -> TERMINADO (exit)
+[t=  4439] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4439] CTX-SWITCH PID   40  carga de contexto
+[t=  4440] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4440] DESPACHO   PID   40  nivel=0 restante=21
+[t=  4441] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4443] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4443] CTX-SWITCH PID   90  carga de contexto
+[t=  4444] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4444] DESPACHO   PID   90  nivel=0 restante=6
+[t=  4448] ESTADO     PID   90  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4450] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4450] CTX-SWITCH PID   40  carga de contexto
+[t=  4451] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4451] DESPACHO   PID   40  nivel=0 restante=18
+[t=  4454] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4461] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4461] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4461] DESPACHO   PID   40  nivel=0 restante=15
+[t=  4462] ESTADO     PID   90  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4464] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4464] CTX-SWITCH PID   90  carga de contexto
+[t=  4465] ESTADO     PID   90  LISTO     -> EJECUCION 
+[t=  4465] DESPACHO   PID   90  nivel=0 restante=2
+[t=  4467] ESTADO     PID   90  EJECUCION -> TERMINADO (exit)
+[t=  4471] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4471] CTX-SWITCH PID   40  carga de contexto
+[t=  4472] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4472] DESPACHO   PID   40  nivel=0 restante=12
+[t=  4475] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4482] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4482] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4482] DESPACHO   PID   40  nivel=0 restante=9
+[t=  4485] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4492] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4492] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4492] DESPACHO   PID   40  nivel=0 restante=6
+[t=  4495] ESTADO     PID   40  EJECUCION -> BLOQUEADO (solicita E/S)
+[t=  4502] ESTADO     PID   40  BLOQUEADO -> LISTO     (fin de E/S)
+[t=  4502] ESTADO     PID   40  LISTO     -> EJECUCION 
+[t=  4502] DESPACHO   PID   40  nivel=0 restante=3
+[t=  4505] ESTADO     PID   40  EJECUCION -> TERMINADO (exit)

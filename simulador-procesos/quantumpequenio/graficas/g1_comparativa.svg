@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="24.0" text-anchor="middle" font-size="16" fill="#111">Prueba de estres: 120 procesos concurrentes (cambio de contexto = 1 tick)</text>
+<text x="250.0" y="53.0" text-anchor="middle" font-size="14" fill="#222">Turnaround promedio (ticks)</text>
+<line x1="60.0" y1="339.0" x2="485.0" y2="339.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="343.0" text-anchor="end" font-size="11" fill="#666666">0</text>
+<line x1="60.0" y1="285.0" x2="485.0" y2="285.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="289.0" text-anchor="end" font-size="11" fill="#666666">1000</text>
+<line x1="60.0" y1="231.0" x2="485.0" y2="231.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="235.0" text-anchor="end" font-size="11" fill="#666666">2000</text>
+<line x1="60.0" y1="177.0" x2="485.0" y2="177.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="181.0" text-anchor="end" font-size="11" fill="#666666">3000</text>
+<line x1="60.0" y1="123.0" x2="485.0" y2="123.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="127.0" text-anchor="end" font-size="11" fill="#666666">4000</text>
+<line x1="60.0" y1="69.0" x2="485.0" y2="69.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="73.0" text-anchor="end" font-size="11" fill="#666666">5000</text>
+<line x1="60.0" y1="339.0" x2="485.0" y2="339.0" stroke="#666666" stroke-width="1.0"/>
+<rect x="72.8" y="231.3" width="59.5" height="107.7" fill="#4C72B0"/>
+<text x="102.5" y="226.3" text-anchor="middle" font-size="11" fill="#222">1994</text>
+<text x="102.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">FCFS</text>
+<rect x="157.8" y="136.5" width="59.5" height="202.5" fill="#DD8452"/>
+<text x="187.5" y="131.5" text-anchor="middle" font-size="11" fill="#222">3750</text>
+<text x="187.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">RR q=1</text>
+<rect x="242.8" y="242.9" width="59.5" height="96.1" fill="#55A868"/>
+<text x="272.5" y="237.9" text-anchor="middle" font-size="11" fill="#222">1780</text>
+<text x="272.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">SJF</text>
+<rect x="327.8" y="242.4" width="59.5" height="96.6" fill="#C44E52"/>
+<text x="357.5" y="237.4" text-anchor="middle" font-size="11" fill="#222">1789</text>
+<text x="357.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">SRT</text>
+<rect x="412.8" y="222.6" width="59.5" height="116.4" fill="#937860"/>
+<text x="442.5" y="217.6" text-anchor="middle" font-size="11" fill="#222">2156</text>
+<text x="442.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">MLFQ</text>
+<text x="750.0" y="53.0" text-anchor="middle" font-size="14" fill="#222">Waiting Time promedio en cola de listos (ticks)</text>
+<line x1="560.0" y1="339.0" x2="985.0" y2="339.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="343.0" text-anchor="end" font-size="11" fill="#666666">0</text>
+<line x1="560.0" y1="271.5" x2="985.0" y2="271.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="275.5" text-anchor="end" font-size="11" fill="#666666">1000</text>
+<line x1="560.0" y1="204.0" x2="985.0" y2="204.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="208.0" text-anchor="end" font-size="11" fill="#666666">2000</text>
+<line x1="560.0" y1="136.5" x2="985.0" y2="136.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="140.5" text-anchor="end" font-size="11" fill="#666666">3000</text>
+<line x1="560.0" y1="69.0" x2="985.0" y2="69.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="73.0" text-anchor="end" font-size="11" fill="#666666">4000</text>
+<line x1="560.0" y1="339.0" x2="985.0" y2="339.0" stroke="#666666" stroke-width="1.0"/>
+<rect x="572.8" y="208.6" width="59.5" height="130.4" fill="#4C72B0"/>
+<text x="602.5" y="203.6" text-anchor="middle" font-size="11" fill="#222">1932</text>
+<text x="602.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">FCFS</text>
+<rect x="657.8" y="90.0" width="59.5" height="249.0" fill="#DD8452"/>
+<text x="687.5" y="85.0" text-anchor="middle" font-size="11" fill="#222">3688</text>
+<text x="687.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">RR q=1</text>
+<rect x="742.8" y="223.0" width="59.5" height="116.0" fill="#55A868"/>
+<text x="772.5" y="218.0" text-anchor="middle" font-size="11" fill="#222">1718</text>
+<text x="772.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">SJF</text>
+<rect x="827.8" y="222.5" width="59.5" height="116.5" fill="#C44E52"/>
+<text x="857.5" y="217.5" text-anchor="middle" font-size="11" fill="#222">1727</text>
+<text x="857.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">SRT</text>
+<rect x="912.8" y="197.6" width="59.5" height="141.4" fill="#937860"/>
+<text x="942.5" y="192.6" text-anchor="middle" font-size="11" fill="#222">2094</text>
+<text x="942.5" y="357.0" text-anchor="middle" font-size="12" fill="#222">MLFQ</text>
+<text x="250.0" y="393.0" text-anchor="middle" font-size="14" fill="#222">Throughput (procesos / 1000 ticks)</text>
+<line x1="60.0" y1="679.0" x2="485.0" y2="679.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="683.0" text-anchor="end" font-size="11" fill="#666666">13.00</text>
+<line x1="60.0" y1="611.5" x2="485.0" y2="611.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="615.5" text-anchor="end" font-size="11" fill="#666666">18.00</text>
+<line x1="60.0" y1="544.0" x2="485.0" y2="544.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="548.0" text-anchor="end" font-size="11" fill="#666666">23.00</text>
+<line x1="60.0" y1="476.5" x2="485.0" y2="476.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="480.5" text-anchor="end" font-size="11" fill="#666666">28.00</text>
+<line x1="60.0" y1="409.0" x2="485.0" y2="409.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="54.0" y="413.0" text-anchor="end" font-size="11" fill="#666666">33.00</text>
+<line x1="60.0" y1="679.0" x2="485.0" y2="679.0" stroke="#666666" stroke-width="1.0"/>
+<rect x="72.8" y="494.9" width="59.5" height="184.1" fill="#4C72B0"/>
+<text x="102.5" y="489.9" text-anchor="middle" font-size="11" fill="#222">26.64</text>
+<text x="102.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">FCFS</text>
+<rect x="157.8" y="655.4" width="59.5" height="23.6" fill="#DD8452"/>
+<text x="187.5" y="650.4" text-anchor="middle" font-size="11" fill="#222">14.75</text>
+<text x="187.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">RR q=1</text>
+<rect x="242.8" y="492.2" width="59.5" height="186.8" fill="#55A868"/>
+<text x="272.5" y="487.2" text-anchor="middle" font-size="11" fill="#222">26.84</text>
+<text x="272.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">SJF</text>
+<rect x="327.8" y="493.4" width="59.5" height="185.6" fill="#C44E52"/>
+<text x="357.5" y="488.4" text-anchor="middle" font-size="11" fill="#222">26.75</text>
+<text x="357.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">SRT</text>
+<rect x="412.8" y="511.9" width="59.5" height="167.1" fill="#937860"/>
+<text x="442.5" y="506.9" text-anchor="middle" font-size="11" fill="#222">25.38</text>
+<text x="442.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">MLFQ</text>
+<text x="750.0" y="393.0" text-anchor="middle" font-size="14" fill="#222">Tiempo de respuesta promedio (ticks)</text>
+<line x1="560.0" y1="679.0" x2="985.0" y2="679.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="683.0" text-anchor="end" font-size="11" fill="#666666">0</text>
+<line x1="560.0" y1="611.5" x2="985.0" y2="611.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="615.5" text-anchor="end" font-size="11" fill="#666666">500</text>
+<line x1="560.0" y1="544.0" x2="985.0" y2="544.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="548.0" text-anchor="end" font-size="11" fill="#666666">1000</text>
+<line x1="560.0" y1="476.5" x2="985.0" y2="476.5" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="480.5" text-anchor="end" font-size="11" fill="#666666">1500</text>
+<line x1="560.0" y1="409.0" x2="985.0" y2="409.0" stroke="#E5E5E5" stroke-width="1.0"/>
+<text x="554.0" y="413.0" text-anchor="end" font-size="11" fill="#666666">2000</text>
+<line x1="560.0" y1="679.0" x2="985.0" y2="679.0" stroke="#666666" stroke-width="1.0"/>
+<rect x="572.8" y="508.4" width="59.5" height="170.6" fill="#4C72B0"/>
+<text x="602.5" y="503.4" text-anchor="middle" font-size="11" fill="#222">1264</text>
+<text x="602.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">FCFS</text>
+<rect x="657.8" y="663.0" width="59.5" height="16.0" fill="#DD8452"/>
+<text x="687.5" y="658.0" text-anchor="middle" font-size="11" fill="#222">118</text>
+<text x="687.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">RR q=1</text>
+<rect x="742.8" y="449.3" width="59.5" height="229.7" fill="#55A868"/>
+<text x="772.5" y="444.3" text-anchor="middle" font-size="11" fill="#222">1702</text>
+<text x="772.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">SJF</text>
+<rect x="827.8" y="448.1" width="59.5" height="230.8" fill="#C44E52"/>
+<text x="857.5" y="443.1" text-anchor="middle" font-size="11" fill="#222">1710</text>
+<text x="857.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">SRT</text>
+<rect x="912.8" y="622.9" width="59.5" height="56.1" fill="#937860"/>
+<text x="942.5" y="617.9" text-anchor="middle" font-size="11" fill="#222">415</text>
+<text x="942.5" y="697.0" text-anchor="middle" font-size="12" fill="#222">MLFQ</text>
+</svg>
